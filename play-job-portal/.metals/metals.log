@@ -1,0 +1,852 @@
+2023.08.04 08:11:13 INFO  Started: Metals version 1.0.0 in folders '/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal' for client Visual Studio Code 1.74.2.[0m
+Aug 04, 2023 8:11:13 AM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.20.1 by Redgate
+Aug 04, 2023 8:11:13 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Aug 04, 2023 8:11:13 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Aug 04, 2023 8:11:14 AM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/.metals/metals (H2 2.1)
+Aug 04, 2023 8:11:14 AM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFO: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+Aug 04, 2023 8:11:14 AM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.047s)
+Aug 04, 2023 8:11:14 AM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFO: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+Aug 04, 2023 8:11:14 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": << Empty Schema >>
+Aug 04, 2023 8:11:14 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "1 - Create tables"
+Aug 04, 2023 8:11:14 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "2 - Server discovery"
+Aug 04, 2023 8:11:14 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+Aug 04, 2023 8:11:14 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+Aug 04, 2023 8:11:14 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.030s)
+2023.08.04 08:11:14 INFO  time: initialize in 0.87s[0m
+2023.08.04 08:11:16 WARN  Build server is not auto-connectable.[0m
+2023.08.04 08:11:28 INFO  running '/usr/lib/jvm/java-17-openjdk-amd64/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals9170583539301969607/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+2023.08.04 08:11:28 WARN  no build target for: /home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/project/metals.sbt[0m
+2023.08.04 08:11:28 WARN  no build target for: /home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/project/project/metals.sbt[0m
+2023.08.04 08:11:28 INFO  skipping build import with status 'Started'[0m
+2023.08.04 08:11:30 INFO  [info] welcome to sbt 1.7.2 (Private Build Java 17.0.7)[0m
+2023.08.04 08:11:32 INFO  no build target found for /home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/project/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.3.0[0m
+2023.08.04 08:11:34 INFO  [info] loading settings for project play-job-portal-build-build-build from metals.sbt ...[0m
+2023.08.04 08:11:35 INFO  [info] loading project definition from /home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/project/project/project[0m
+2023.08.04 08:11:39 INFO  [info] loading settings for project play-job-portal-build-build from metals.sbt ...[0m
+2023.08.04 08:11:39 INFO  [info] loading project definition from /home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/project/project[0m
+2023.08.04 08:11:44 INFO  [success] Generated .bloop/play-job-portal-build-build.json[0m
+2023.08.04 08:11:45 INFO  [success] Total time: 6 s, completed Aug 4, 2023, 8:11:45 AM[0m
+2023.08.04 08:11:46 INFO  [info] loading settings for project play-job-portal-build from metals.sbt,plugins.sbt ...[0m
+2023.08.04 08:11:46 INFO  [info] loading project definition from /home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/project[0m
+2023.08.04 08:11:52 INFO  [success] Generated .bloop/play-job-portal-build.json[0m
+2023.08.04 08:11:53 INFO  [success] Total time: 6 s, completed Aug 4, 2023, 8:11:53 AM[0m
+2023.08.04 08:11:56 INFO  [info] loading settings for project root from build.sbt ...[0m
+2023.08.04 08:11:56 INFO  [info]   __              __[0m
+2023.08.04 08:11:56 INFO  [info]   \ \     ____   / /____ _ __  __[0m
+2023.08.04 08:11:56 INFO  [info]    \ \   / __ \ / // __ `// / / /[0m
+2023.08.04 08:11:56 INFO  [info]    / /  / /_/ // // /_/ // /_/ /[0m
+2023.08.04 08:11:56 INFO  [info]   /_/  / .___//_/ \__,_/ \__, /[0m
+2023.08.04 08:11:56 INFO  [info]       /_/               /____/[0m
+2023.08.04 08:11:56 INFO  [info] [0m
+2023.08.04 08:11:56 INFO  [info] Version 2.8.20 running Java 17.0.7[0m
+2023.08.04 08:11:56 INFO  [info] [0m
+2023.08.04 08:11:56 INFO  [info] Play is run entirely by the community. Please consider contributing and/or donating:[0m
+2023.08.04 08:11:56 INFO  [info] https://www.playframework.com/sponsors[0m
+2023.08.04 08:11:56 INFO  [info] [0m
+2023.08.04 08:11:56 INFO  [info] Running Play on Java 17 is experimental. Tweaks are necessary:[0m
+2023.08.04 08:11:56 INFO  [info] https://github.com/playframework/playframework/releases/2.8.15[0m
+2023.08.04 08:11:56 INFO  [info] [0m
+2023.08.04 08:11:59 INFO  [success] Generated .bloop/root-test.json[0m
+2023.08.04 08:11:59 INFO  [success] Generated .bloop/root.json[0m
+2023.08.04 08:11:59 INFO  [success] Total time: 1 s, completed Aug 4, 2023, 8:11:59 AM[0m
+2023.08.04 08:11:59 INFO  time: ran 'sbt bloopInstall' in 31s[0m
+2023.08.04 08:11:59 INFO  Attempting to connect to the build server...[0m
+2023.08.04 08:11:59 INFO  Setting up current java home /usr/lib/jvm/java-17-openjdk-amd64 in /home/danangjoyoo/.bloop/bloop.json[0m
+2023.08.04 08:12:06 WARN  no build target for: /home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java[0m
+Aug 04, 2023 8:12:07 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4
+Aug 04, 2023 8:12:07 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:3: error: package jakarta.inject does not exist
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:3: error: package jakarta.inject does not exist
+import jakarta.inject.Inject;
+                     ^
+import jakarta.inject.Inject;
+                     ^
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:4: error: package jakarta.inject does not exist
+import jakarta.inject.Singleton;
+                     ^
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:4: error: package jakarta.inject does not exist
+import jakarta.inject.Singleton;
+                     ^
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:5: error: package models does not exist
+import models.sql.Job;
+             ^
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:5: error: package models does not exist
+import models.sql.Job;
+             ^
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:6: error: package repositories does not exist
+import repositories.JobRepository;
+                   ^
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:7: error: package util does not exist
+import util.BaseService;
+           ^
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:6: error: package repositories does not exist
+import repositories.JobRepository;
+                   ^
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:7: error: package util does not exist
+import util.BaseService;
+           ^
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:12: error: cannot find symbol
+public class JobService extends BaseService {
+                                ^
+  symbol: class BaseService
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:12: error: cannot find symbol
+public class JobService extends BaseService {
+                                ^
+  symbol: class BaseService
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:11: error: cannot find symbol
+@Singleton
+ ^
+  symbol: class Singleton
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:11: error: cannot find symbol
+@Singleton
+ ^
+  symbol: class Singleton
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:14: error: cannot find symbol
+    private final JobRepository jobRepository;
+                  ^
+  symbol:   class JobRepository
+  location: class JobService
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:14: error: cannot find symbol
+    private final JobRepository jobRepository;
+                  ^
+  symbol:   class JobRepository
+  location: class JobService
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:17: error: cannot find symbol
+    public JobService(JobRepository jobRepository) {
+                      ^
+  symbol:   class JobRepository
+  location: class JobService
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:17: error: cannot find symbol
+    public JobService(JobRepository jobRepository) {
+                      ^
+  symbol:   class JobRepository
+  location: class JobService
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:21: error: cannot find symbol
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:21: error: cannot find symbol
+    public List<Job> getAllJobs() {
+                ^
+  symbol:   class Job
+  location: class JobService
+    public List<Job> getAllJobs() {
+                ^
+  symbol:   class Job
+  location: class JobService
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:16: error: cannot find symbol
+    @Inject
+     ^
+  symbol:   class Inject
+  location: class JobService
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:16: error: cannot find symbol
+    @Inject
+     ^
+  symbol:   class Inject
+  location: class JobService
+Aug 04, 2023 8:12:10 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/.metals/.reports/metals-full/r_compiler-error_1691111530546
+Aug 04, 2023 8:12:13 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/.metals/.reports/metals-full/r_compiler-error_1691111533014
+Aug 04, 2023 8:12:14 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:3: error: package jakarta.inject does not exist
+import jakarta.inject.Inject;
+                     ^
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:4: error: package jakarta.inject does not exist
+import jakarta.inject.Singleton;
+                     ^
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:5: error: package models does not exist
+import models.sql.Job;
+             ^
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:6: error: package repositories does not exist
+import repositories.JobRepository;
+                   ^
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:7: error: package util does not exist
+import util.BaseService;
+           ^
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:12: error: cannot find symbol
+public class JobService extends BaseService {
+                                ^
+  symbol: class BaseService
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:11: error: cannot find symbol
+@Singleton
+ ^
+  symbol: class Singleton
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:14: error: cannot find symbol
+    private final JobRepository jobRepository;
+                  ^
+  symbol:   class JobRepository
+  location: class JobService
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:17: error: cannot find symbol
+    public JobService(JobRepository jobRepository) {
+                      ^
+  symbol:   class JobRepository
+  location: class JobService
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:21: error: cannot find symbol
+    public List<Job> getAllJobs() {
+                ^
+  symbol:   class Job
+  location: class JobService
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:16: error: cannot find symbol
+    @Inject
+     ^
+  symbol:   class Inject
+  location: class JobService
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:3: error: package jakarta.inject does not exist
+import jakarta.inject.Inject;
+                     ^
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:4: error: package jakarta.inject does not exist
+import jakarta.inject.Singleton;
+                     ^
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:5: error: package models does not exist
+import models.sql.Job;
+             ^
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:6: error: package repositories does not exist
+import repositories.JobRepository;
+                   ^
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:7: error: package util does not exist
+import util.BaseService;
+           ^
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:12: error: cannot find symbol
+public class JobService extends BaseService {
+                                ^
+  symbol: class BaseService
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:11: error: cannot find symbol
+@Singleton
+ ^
+  symbol: class Singleton
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:14: error: cannot find symbol
+    private final JobRepository jobRepository;
+                  ^
+  symbol:   class JobRepository
+  location: class JobService
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:17: error: cannot find symbol
+    public JobService(JobRepository jobRepository) {
+                      ^
+  symbol:   class JobRepository
+  location: class JobService
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:21: error: cannot find symbol
+    public List<Job> getAllJobs() {
+                ^
+  symbol:   class Job
+  location: class JobService
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:16: error: cannot find symbol
+    @Inject
+     ^
+  symbol:   class Inject
+  location: class JobService
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:3: error: package jakarta.inject does not exist
+import jakarta.inject.Inject;
+                     ^
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:4: error: package jakarta.inject does not exist
+import jakarta.inject.Singleton;
+                     ^
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:5: error: package models does not exist
+import models.sql.Job;
+             ^
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:6: error: package repositories does not exist
+import repositories.JobRepository;
+                   ^
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:7: error: package util does not exist
+import util.BaseService;
+           ^
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:12: error: cannot find symbol
+public class JobService extends BaseService {
+                                ^
+  symbol: class BaseService
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:11: error: cannot find symbol
+@Singleton
+ ^
+  symbol: class Singleton
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:14: error: cannot find symbol
+    private final JobRepository jobRepository;
+                  ^
+  symbol:   class JobRepository
+  location: class JobService
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:17: error: cannot find symbol
+    public JobService(JobRepository jobRepository) {
+                      ^
+  symbol:   class JobRepository
+  location: class JobService
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:21: error: cannot find symbol
+    public List<Job> getAllJobs() {
+                ^
+  symbol:   class Job
+  location: class JobService
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:16: error: cannot find symbol
+    @Inject
+     ^
+  symbol:   class Inject
+  location: class JobService
+Aug 04, 2023 8:12:22 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/.metals/.reports/metals-full/r_compiler-error_1691111542381
+2023.08.04 08:12:32 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/.metals/bsp.trace.json or /home/danangjoyoo/.cache/metals/bsp.trace.json[0m
+2023.08.04 08:12:33 INFO  Attempting to connect to the build server...[0m
+2023.08.04 08:12:33 INFO  Bloop uses /usr/lib/jvm/java-17-openjdk-amd64 defined at /home/danangjoyoo/.bloop/bloop.json[0m
+2023.08.04 08:12:34 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/.metals/bsp.trace.json or /home/danangjoyoo/.cache/metals/bsp.trace.json[0m
+2023.08.04 08:12:34 INFO  Attempting to connect to the build server...[0m
+2023.08.04 08:12:34 INFO  Bloop uses /usr/lib/jvm/java-17-openjdk-amd64 defined at /home/danangjoyoo/.bloop/bloop.json[0m
+2023.08.04 08:12:34 INFO  Attempting to connect to the build server...[0m
+2023.08.04 08:12:34 INFO  Bloop uses /usr/lib/jvm/java-17-openjdk-amd64 defined at /home/danangjoyoo/.bloop/bloop.json[0m
+2023.08.04 08:12:34 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/project/.metals/bsp.trace.json or /home/danangjoyoo/.cache/metals/bsp.trace.json[0m
+2023.08.04 08:12:34 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/project/project/.metals/bsp.trace.json or /home/danangjoyoo/.cache/metals/bsp.trace.json[0m
+2023.08.04 08:12:42 INFO  Attempting to connect to the build server...[0m
+2023.08.04 08:12:42 INFO  Bloop uses /usr/lib/jvm/java-17-openjdk-amd64 defined at /home/danangjoyoo/.bloop/bloop.json[0m
+2023.08.04 08:12:42 INFO  Attempting to connect to the build server...[0m
+2023.08.04 08:12:42 INFO  Bloop uses /usr/lib/jvm/java-17-openjdk-amd64 defined at /home/danangjoyoo/.bloop/bloop.json[0m
+2023.08.04 08:12:42 INFO  time: Connected to build server in 8.24s[0m
+2023.08.04 08:12:42 INFO  Connected to Build server: Bloop v1.5.8[0m
+2023.08.04 08:12:42 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/project/.metals/bsp.trace.json or /home/danangjoyoo/.cache/metals/bsp.trace.json[0m
+2023.08.04 08:12:42 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/project/project/.metals/bsp.trace.json or /home/danangjoyoo/.cache/metals/bsp.trace.json[0m
+2023.08.04 08:12:42 INFO  time: Connected to build server in 42s[0m
+2023.08.04 08:12:42 INFO  Connected to Build server: Bloop v1.5.8[0m
+2023.08.04 08:12:42 INFO  time: Imported build in 0.23s[0m
+2023.08.04 08:12:42 INFO  time: Imported build in 0.37s[0m
+2023.08.04 08:12:52 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip. Java symbols will not be available.[0m
+2023.08.04 08:12:52 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip. Java symbols will not be available.[0m
+2023.08.04 08:12:52 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip. Java symbols will not be available.[0m
+2023.08.04 08:12:52 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip. Java symbols will not be available.[0m
+2023.08.04 08:12:52 INFO  time: indexed workspace in 9.74s[0m
+2023.08.04 08:12:58 INFO  compiling root (6 scala sources and 15 java sources)[0m
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:3: error: package jakarta.inject does not exist
+import jakarta.inject.Inject;
+                     ^
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:3: error: package jakarta.inject does not exist
+import jakarta.inject.Inject;
+                     ^
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:4: error: package jakarta.inject does not exist
+import jakarta.inject.Singleton;
+                     ^
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:4: error: package jakarta.inject does not exist
+import jakarta.inject.Singleton;
+                     ^
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:5: error: package models does not exist
+import models.sql.Job;
+             ^
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:5: error: package models does not exist
+import models.sql.Job;
+             ^
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:6: error: package repositories does not exist
+import repositories.JobRepository;
+                   ^
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:6: error: package repositories does not exist
+import repositories.JobRepository;
+                   ^
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:7: error: package util does not exist
+import util.BaseService;
+           ^
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:7: error: package util does not exist
+import util.BaseService;
+           ^
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:12: error: cannot find symbol
+public class JobService extends BaseService {
+                                ^
+  symbol: class BaseService
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:11: error: cannot find symbol
+@Singleton
+ ^
+  symbol: class Singleton
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:12: error: cannot find symbol
+public class JobService extends BaseService {
+                                ^
+  symbol: class BaseService
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:11: error: cannot find symbol
+@Singleton
+ ^
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:14: error: cannot find symbol
+    private final JobRepository jobRepository;
+                  ^
+  symbol:   class JobRepository
+  location: class JobService
+  symbol: class Singleton
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:17: error: cannot find symbol
+    public JobService(JobRepository jobRepository) {
+                      ^
+  symbol:   class JobRepository
+  location: class JobService
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:14: error: cannot find symbol
+    private final JobRepository jobRepository;
+                  ^
+  symbol:   class JobRepository
+  location: class JobService
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:21: error: cannot find symbol
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:17: error: cannot find symbol
+    public JobService(JobRepository jobRepository) {
+                      ^
+  symbol:   class JobRepository
+  location: class JobService
+    public List<Job> getAllJobs() {
+                ^
+  symbol:   class Job
+  location: class JobService
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:21: error: cannot find symbol
+    public List<Job> getAllJobs() {
+                ^
+  symbol:   class Job
+  location: class JobService
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:16: error: cannot find symbol
+    @Inject
+     ^
+  symbol:   class Inject
+  location: class JobService
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:16: error: cannot find symbol
+    @Inject
+     ^
+  symbol:   class Inject
+  location: class JobService
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:3: error: package jakarta.inject does not exist
+import jakarta.inject.Inject;
+                     ^
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:4: error: package jakarta.inject does not exist
+import jakarta.inject.Singleton;
+                     ^
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:5: error: package models does not exist
+import models.sql.Job;
+             ^
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:6: error: package repositories does not exist
+import repositories.JobRepository;
+                   ^
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:7: error: package util does not exist
+import util.BaseService;
+           ^
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:12: error: cannot find symbol
+public class JobService extends BaseService {
+                                ^
+  symbol: class BaseService
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:11: error: cannot find symbol
+@Singleton
+ ^
+  symbol: class Singleton
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:14: error: cannot find symbol
+    private final JobRepository jobRepository;
+                  ^
+  symbol:   class JobRepository
+  location: class JobService
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:17: error: cannot find symbol
+    public JobService(JobRepository jobRepository) {
+                      ^
+  symbol:   class JobRepository
+  location: class JobService
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:21: error: cannot find symbol
+    public List<Job> getAllJobs() {
+                ^
+  symbol:   class Job
+  location: class JobService
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:16: error: cannot find symbol
+    @Inject
+     ^
+  symbol:   class Inject
+  location: class JobService
+2023.08.04 08:13:26 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip. Java symbols will not be available.[0m
+2023.08.04 08:13:26 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip. Java symbols will not be available.[0m
+2023.08.04 08:13:26 INFO  time: indexed workspace in 44s[0m
+2023.08.04 08:13:31 INFO  compiling root-test (1 java source)[0m
+2023.08.04 08:13:31 INFO  time: compiled root in 33s[0m
+2023.08.04 08:13:32 INFO  time: compiled root-test in 1.57s[0m
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:3: error: package jakarta.inject does not exist
+import jakarta.inject.Inject;
+                     ^
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:4: error: package jakarta.inject does not exist
+import jakarta.inject.Singleton;
+                     ^
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:5: error: package models does not exist
+import models.sql.Job;
+             ^
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:6: error: package repositories does not exist
+import repositories.JobRepository;
+                   ^
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:7: error: package util does not exist
+import util.BaseService;
+           ^
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:12: error: cannot find symbol
+public class JobService extends BaseService {
+                                ^
+  symbol: class BaseService
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:11: error: cannot find symbol
+@Singleton
+ ^
+  symbol: class Singleton
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:14: error: cannot find symbol
+    private final JobRepository jobRepository;
+                  ^
+  symbol:   class JobRepository
+  location: class JobService
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:17: error: cannot find symbol
+    public JobService(JobRepository jobRepository) {
+                      ^
+  symbol:   class JobRepository
+  location: class JobService
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:21: error: cannot find symbol
+    public List<Job> getAllJobs() {
+                ^
+  symbol:   class Job
+  location: class JobService
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:16: error: cannot find symbol
+    @Inject
+     ^
+  symbol:   class Inject
+  location: class JobService
+Aug 04, 2023 8:13:44 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 44
+Aug 04, 2023 8:13:44 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 45
+2023.08.04 08:14:40 INFO  time: code lens generation in 9.75s[0m
+2023.08.04 08:14:40 INFO  time: code lens generation in 6.27s[0m
+2023.08.04 08:15:36 INFO  running '/usr/lib/jvm/java-17-openjdk-amd64/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals6093495717927199245/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+2023.08.04 08:15:37 INFO  [info] welcome to sbt 1.7.2 (Private Build Java 17.0.7)[0m
+2023.08.04 08:15:38 INFO  [info] loading settings for project play-job-portal-build-build-build from metals.sbt ...[0m
+2023.08.04 08:15:38 INFO  [info] loading project definition from /home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/project/project/project[0m
+2023.08.04 08:15:40 INFO  [info] loading settings for project play-job-portal-build-build from metals.sbt ...[0m
+2023.08.04 08:15:40 INFO  [info] loading project definition from /home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/project/project[0m
+2023.08.04 08:15:42 INFO  [success] Generated .bloop/play-job-portal-build-build.json[0m
+2023.08.04 08:15:42 INFO  [success] Total time: 2 s, completed Aug 4, 2023, 8:15:42 AM[0m
+2023.08.04 08:15:42 INFO  [info] loading settings for project play-job-portal-build from metals.sbt,plugins.sbt ...[0m
+2023.08.04 08:15:42 INFO  [info] loading project definition from /home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/project[0m
+2023.08.04 08:15:44 INFO  [success] Generated .bloop/play-job-portal-build.json[0m
+2023.08.04 08:15:44 INFO  [success] Total time: 1 s, completed Aug 4, 2023, 8:15:44 AM[0m
+2023.08.04 08:15:45 INFO  [info] loading settings for project root from build.sbt ...[0m
+2023.08.04 08:15:45 INFO  [info]   __              __[0m
+2023.08.04 08:15:45 INFO  [info]   \ \     ____   / /____ _ __  __[0m
+2023.08.04 08:15:45 INFO  [info]    \ \   / __ \ / // __ `// / / /[0m
+2023.08.04 08:15:45 INFO  [info]    / /  / /_/ // // /_/ // /_/ /[0m
+2023.08.04 08:15:45 INFO  [info]   /_/  / .___//_/ \__,_/ \__, /[0m
+2023.08.04 08:15:45 INFO  [info]       /_/               /____/[0m
+2023.08.04 08:15:45 INFO  [info] [0m
+2023.08.04 08:15:45 INFO  [info] Version 2.8.20 running Java 17.0.7[0m
+2023.08.04 08:15:45 INFO  [info] [0m
+2023.08.04 08:15:45 INFO  [info] Play is run entirely by the community. Please consider contributing and/or donating:[0m
+2023.08.04 08:15:45 INFO  [info] https://www.playframework.com/sponsors[0m
+2023.08.04 08:15:45 INFO  [info] [0m
+2023.08.04 08:15:45 INFO  [info] Running Play on Java 17 is experimental. Tweaks are necessary:[0m
+2023.08.04 08:15:45 INFO  [info] https://github.com/playframework/playframework/releases/2.8.15[0m
+2023.08.04 08:15:45 INFO  [info] [0m
+2023.08.04 08:15:47 INFO  [success] Generated .bloop/root.json[0m
+2023.08.04 08:15:47 INFO  [success] Generated .bloop/root-test.json[0m
+2023.08.04 08:15:47 INFO  [success] Total time: 1 s, completed Aug 4, 2023, 8:15:47 AM[0m
+2023.08.04 08:15:48 INFO  time: ran 'sbt bloopInstall' in 12s[0m
+2023.08.04 08:15:48 INFO  Disconnecting from Bloop session...[0m
+2023.08.04 08:15:48 INFO  Shut down connection with build server.[0m
+2023.08.04 08:15:48 INFO  Shut down connection with build server.[0m
+2023.08.04 08:15:48 INFO  Shut down connection with build server.[0m
+2023.08.04 08:15:48 INFO  Attempting to connect to the build server...[0m
+2023.08.04 08:15:48 INFO  Bloop uses /usr/lib/jvm/java-17-openjdk-amd64 defined at /home/danangjoyoo/.bloop/bloop.json[0m
+2023.08.04 08:15:48 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/.metals/bsp.trace.json or /home/danangjoyoo/.cache/metals/bsp.trace.json[0m
+2023.08.04 08:15:48 INFO  Attempting to connect to the build server...[0m
+2023.08.04 08:15:48 INFO  Bloop uses /usr/lib/jvm/java-17-openjdk-amd64 defined at /home/danangjoyoo/.bloop/bloop.json[0m
+2023.08.04 08:15:48 INFO  Attempting to connect to the build server...[0m
+2023.08.04 08:15:48 INFO  Bloop uses /usr/lib/jvm/java-17-openjdk-amd64 defined at /home/danangjoyoo/.bloop/bloop.json[0m
+2023.08.04 08:15:48 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/project/.metals/bsp.trace.json or /home/danangjoyoo/.cache/metals/bsp.trace.json[0m
+2023.08.04 08:15:48 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/project/project/.metals/bsp.trace.json or /home/danangjoyoo/.cache/metals/bsp.trace.json[0m
+2023.08.04 08:15:48 INFO  time: Connected to build server in 0.16s[0m
+2023.08.04 08:15:48 INFO  Connected to Build server: Bloop v1.5.8[0m
+2023.08.04 08:15:51 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip. Java symbols will not be available.[0m
+2023.08.04 08:15:51 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip. Java symbols will not be available.[0m
+2023.08.04 08:15:51 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip. Java symbols will not be available.[0m
+2023.08.04 08:15:51 INFO  time: indexed workspace in 2.82s[0m
+2023.08.04 08:16:23 INFO  Resetting build server selection.[0m
+2023.08.04 08:16:28 INFO  Disconnecting from Bloop session...[0m
+2023.08.04 08:16:28 INFO  Shut down connection with build server.[0m
+2023.08.04 08:16:28 INFO  Shut down connection with build server.[0m
+2023.08.04 08:16:28 INFO  Shut down connection with build server.[0m
+2023.08.04 08:16:28 INFO  Attempting to connect to the build server...[0m
+2023.08.04 08:16:28 INFO  Running BSP server List(/usr/lib/jvm/java-17-openjdk-amd64/bin/java, -Xms100m, -Xmx100m, -classpath, /home/danangjoyoo/.local/share/JetBrains/IdeaIC2023.2/Scala/launcher/sbt-launch.jar, -Dsbt.script=/usr/bin/sbt, xsbt.boot.Boot, -bsp)[0m
+2023.08.04 08:16:28 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/.metals/bsp.trace.json or /home/danangjoyoo/.cache/metals/bsp.trace.json[0m
+2023.08.04 08:16:28 WARN  no build target for: /home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/project/metals.sbt[0m
+2023.08.04 08:16:29 WARN  no build target for: /home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/project/project/metals.sbt[0m
+2023.08.04 08:16:29 WARN  No build session currently active to reload.[0m
+2023.08.04 08:16:29 INFO  BSP server: [info] server was not detected. starting an instance[0m
+2023.08.04 08:16:31 INFO  BSP server: [info] welcome to sbt 1.7.2 (Private Build Java 17.0.7)[0m
+2023.08.04 08:16:33 INFO  BSP server: [info] loading settings for project play-job-portal-build-build-build from metals.sbt ...[0m
+2023.08.04 08:16:33 INFO  BSP server: [info] loading project definition from /home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/project/project/project[0m
+2023.08.04 08:16:36 INFO  BSP server: [info] loading settings for project play-job-portal-build-build from metals.sbt ...[0m
+2023.08.04 08:16:36 INFO  BSP server: [info] loading project definition from /home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/project/project[0m
+2023.08.04 08:16:39 INFO  BSP server: [success] Generated .bloop/play-job-portal-build-build.json[0m
+2023.08.04 08:16:39 INFO  BSP server: [success] Total time: 2 s, completed Aug 4, 2023, 8:16:39 AM[0m
+2023.08.04 08:16:40 INFO  BSP server: [info] loading settings for project play-job-portal-build from metals.sbt,plugins.sbt ...[0m
+2023.08.04 08:16:40 INFO  BSP server: [info] loading project definition from /home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/project[0m
+2023.08.04 08:16:51 INFO  BSP server: [info] loading settings for project root from build.sbt ...[0m
+2023.08.04 08:16:51 INFO  BSP server: [info]   __              __[0m
+2023.08.04 08:16:51 INFO  BSP server: [info]   \ \     ____   / /____ _ __  __[0m
+2023.08.04 08:16:51 INFO  BSP server: [info]    \ \   / __ \ / // __ `// / / /[0m
+2023.08.04 08:16:51 INFO  BSP server: [info]    / /  / /_/ // // /_/ // /_/ /[0m
+2023.08.04 08:16:51 INFO  BSP server: [info]   /_/  / .___//_/ \__,_/ \__, /[0m
+2023.08.04 08:16:51 INFO  BSP server: [info]       /_/               /____/[0m
+2023.08.04 08:16:51 INFO  BSP server: [info] [0m
+2023.08.04 08:16:51 INFO  BSP server: [info] Version 2.8.20 running Java 17.0.7[0m
+2023.08.04 08:16:51 INFO  BSP server: [info] [0m
+2023.08.04 08:16:51 INFO  BSP server: [info] Play is run entirely by the community. Please consider contributing and/or donating:[0m
+2023.08.04 08:16:51 INFO  BSP server: [info] https://www.playframework.com/sponsors[0m
+2023.08.04 08:16:51 INFO  BSP server: [info] [0m
+2023.08.04 08:16:51 INFO  BSP server: [info] Running Play on Java 17 is experimental. Tweaks are necessary:[0m
+2023.08.04 08:16:51 INFO  BSP server: [info] https://github.com/playframework/playframework/releases/2.8.15[0m
+2023.08.04 08:16:51 INFO  BSP server: [info] [0m
+2023.08.04 08:16:52 INFO  BSP server: [info] sbt server started at local:///home/danangjoyoo/.sbt/1.0/server/2d0da904c5ee1cb6acac/sock[0m
+2023.08.04 08:16:53 INFO  Processing workspace/reload[0m
+2023.08.04 08:16:53 INFO  compiling play-job-portal-build-build-build[0m
+2023.08.04 08:16:53 INFO  compiling play-job-portal-build-build[0m
+2023.08.04 08:16:53 INFO  compiling play-job-portal-build-build[0m
+2023.08.04 08:16:54 INFO  compiling play-job-portal-build[0m
+2023.08.04 08:16:54 INFO  time: Connected to build server in 26s[0m
+2023.08.04 08:16:54 INFO  Connected to Build server: sbt v1.7.2[0m
+2023.08.04 08:16:54 INFO  Processing workspace/buildTargets[0m
+2023.08.04 08:16:58 INFO  Processing buildTarget/scalacOptions[0m
+2023.08.04 08:16:58 INFO  Processing buildTarget/sources[0m
+2023.08.04 08:16:58 INFO  Processing buildTarget/dependencySources[0m
+2023.08.04 08:16:59 INFO  time: Imported build in 4.83s[0m
+2023.08.04 08:17:02 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip. Java symbols will not be available.[0m
+2023.08.04 08:17:04 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip. Java symbols will not be available.[0m
+2023.08.04 08:17:04 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip. Java symbols will not be available.[0m
+2023.08.04 08:17:04 INFO  time: indexed workspace in 4.65s[0m
+2023.08.04 08:17:04 INFO  Processing buildTarget/scalaTestClasses[0m
+2023.08.04 08:17:04 INFO  compiling root[0m
+2023.08.04 08:17:07 INFO  compiling 6 Scala sources and 15 Java sources to /home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/target/scala-2.13/classes ...[0m
+2023.08.04 08:17:17 INFO  done compiling[0m
+2023.08.04 08:17:18 INFO  time: compiled root in 13s[0m
+2023.08.04 08:17:18 INFO  compiling root-test[0m
+2023.08.04 08:17:18 INFO  compiling 1 Java source to /home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/target/scala-2.13/test-classes ...[0m
+2023.08.04 08:17:21 INFO  done compiling[0m
+2023.08.04 08:17:21 INFO  time: compiled root-test in 2.47s[0m
+2023.08.04 08:17:21 INFO  Processing buildTarget/scalaMainClasses[0m
+2023.08.04 08:17:21 INFO  compiling root[0m
+2023.08.04 08:17:21 INFO  time: compiled root in 10ms[0m
+2023.08.04 08:17:21 INFO  compiling root-test[0m
+2023.08.04 08:17:21 INFO  time: compiled root-test in 8ms[0m
+2023.08.04 08:17:21 INFO  Processing buildTarget/jvmRunEnvironment[0m
+2023.08.04 08:17:21 INFO  compiling root[0m
+2023.08.04 08:17:21 INFO  time: compiled root in 7ms[0m
+2023.08.04 08:17:21 INFO  compiling root-test[0m
+2023.08.04 08:17:21 INFO  time: compiled root-test in 7ms[0m
+2023.08.04 08:17:21 INFO  Processing buildTarget/compile[0m
+2023.08.04 08:17:21 INFO  compiling root[0m
+2023.08.04 08:17:21 INFO  time: compiled root in 7ms[0m
+2023.08.04 08:17:21 INFO  compiling root-test[0m
+2023.08.04 08:17:21 INFO  time: compiled root-test in 6ms[0m
+2023.08.04 08:17:21 INFO  Processing buildTarget/scalaMainClasses[0m
+2023.08.04 08:17:21 INFO  compiling root[0m
+2023.08.04 08:17:21 INFO  time: compiled root in 7ms[0m
+2023.08.04 08:17:21 INFO  compiling root-test[0m
+2023.08.04 08:17:21 INFO  time: compiled root-test in 6ms[0m
+2023.08.04 08:17:21 INFO  Processing buildTarget/scalaTestClasses[0m
+2023.08.04 08:17:21 INFO  compiling root[0m
+2023.08.04 08:17:21 INFO  time: compiled root in 8ms[0m
+2023.08.04 08:17:21 INFO  compiling root-test[0m
+2023.08.04 08:17:21 INFO  time: compiled root-test in 7ms[0m
+2023.08.04 08:17:21 INFO  Processing buildTarget/jvmRunEnvironment[0m
+2023.08.04 08:17:21 INFO  compiling root[0m
+2023.08.04 08:17:21 INFO  time: compiled root in 7ms[0m
+2023.08.04 08:17:21 INFO  compiling root-test[0m
+2023.08.04 08:17:21 INFO  time: compiled root-test in 7ms[0m
+Aug 04, 2023 8:17:53 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 67
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:3: error: package jakarta.inject does not exist
+import jakarta.inject.Inject;
+                     ^
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:4: error: package jakarta.inject does not exist
+import jakarta.inject.Singleton;
+                     ^
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:5: error: package models does not exist
+import models.sql.Job;
+             ^
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:6: error: package repositories does not exist
+import repositories.JobRepository;
+                   ^
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:7: error: package util does not exist
+import util.BaseService;
+           ^
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:12: error: cannot find symbol
+public class JobService extends BaseService {
+                                ^
+  symbol: class BaseService
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:11: error: cannot find symbol
+@Singleton
+ ^
+  symbol: class Singleton
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:14: error: cannot find symbol
+    private final JobRepository jobRepository;
+                  ^
+  symbol:   class JobRepository
+  location: class JobService
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:17: error: cannot find symbol
+    public JobService(JobRepository jobRepository) {
+                      ^
+  symbol:   class JobRepository
+  location: class JobService
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:21: error: cannot find symbol
+    public List<Job> getAllJobs() {
+                ^
+  symbol:   class Job
+  location: class JobService
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:16: error: cannot find symbol
+    @Inject
+     ^
+  symbol:   class Inject
+  location: class JobService
+2023.08.04 08:17:59 INFO  Processing buildTarget/compile[0m
+2023.08.04 08:17:59 INFO  compiling root[0m
+2023.08.04 08:17:59 INFO  time: compiled root in 10ms[0m
+2023.08.04 08:17:59 INFO  Processing buildTarget/scalaMainClasses[0m
+2023.08.04 08:17:59 INFO  compiling root[0m
+2023.08.04 08:17:59 INFO  time: compiled root in 8ms[0m
+2023.08.04 08:17:59 INFO  Processing buildTarget/scalaTestClasses[0m
+2023.08.04 08:17:59 INFO  Processing buildTarget/jvmRunEnvironment[0m
+2023.08.04 08:17:59 INFO  compiling root[0m
+2023.08.04 08:17:59 INFO  time: compiled root in 11ms[0m
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/util/BaseService.java:3: error: package jakarta.inject does not exist
+import jakarta.inject.Inject;
+                     ^
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:3: error: package jakarta.inject does not exist
+import jakarta.inject.Inject;
+                     ^
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:4: error: package jakarta.inject does not exist
+import jakarta.inject.Singleton;
+                     ^
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:5: error: package models does not exist
+import models.sql.Job;
+             ^
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:6: error: package repositories does not exist
+import repositories.JobRepository;
+                   ^
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:7: error: package util does not exist
+import util.BaseService;
+           ^
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:12: error: cannot find symbol
+public class JobService extends BaseService {
+                                ^
+  symbol: class BaseService
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:11: error: cannot find symbol
+@Singleton
+ ^
+  symbol: class Singleton
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:14: error: cannot find symbol
+    private final JobRepository jobRepository;
+                  ^
+  symbol:   class JobRepository
+  location: class JobService
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:17: error: cannot find symbol
+    public JobService(JobRepository jobRepository) {
+                      ^
+  symbol:   class JobRepository
+  location: class JobService
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:21: error: cannot find symbol
+    public List<Job> getAllJobs() {
+                ^
+  symbol:   class Job
+  location: class JobService
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:16: error: cannot find symbol
+    @Inject
+     ^
+  symbol:   class Inject
+  location: class JobService
+Aug 04, 2023 8:19:42 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:3: error: package jakarta.inject does not exist
+import jakarta.inject.Inject;
+                     ^
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:4: error: package jakarta.inject does not exist
+import jakarta.inject.Singleton;
+                     ^
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:5: error: package models does not exist
+import models.sql.Job;
+             ^
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:6: error: package repositories does not exist
+import repositories.JobRepository;
+                   ^
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:7: error: package util does not exist
+import util.BaseService;
+           ^
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:12: error: cannot find symbol
+public class JobService extends BaseService {
+                                ^
+  symbol: class BaseService
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:11: error: cannot find symbol
+@Singleton
+ ^
+  symbol: class Singleton
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:14: error: cannot find symbol
+    private final JobRepository jobRepository;
+                  ^
+  symbol:   class JobRepository
+  location: class JobService
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:17: error: cannot find symbol
+    public JobService(JobRepository jobRepository) {
+                      ^
+  symbol:   class JobRepository
+  location: class JobService
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:21: error: cannot find symbol
+    public List<Job> getAllJobs() {
+                ^
+  symbol:   class Job
+  location: class JobService
+/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/app/services/JobService.java:16: error: cannot find symbol
+    @Inject
+     ^
+  symbol:   class Inject
+  location: class JobService
+2023.08.04 08:20:29 INFO  Processing buildTarget/cleanCache[0m
+2023.08.04 08:20:29 INFO  Processing buildTarget/compile[0m
+2023.08.04 08:20:29 INFO  compiling root[0m
+2023.08.04 08:20:29 INFO  compiling 6 Scala sources and 15 Java sources to /home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/target/scala-2.13/classes ...[0m
+2023.08.04 08:20:36 INFO  done compiling[0m
+2023.08.04 08:20:36 INFO  time: compiled root in 7.05s[0m
+2023.08.04 08:20:36 INFO  compiling root-test[0m
+2023.08.04 08:20:36 INFO  compiling 1 Java source to /home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/target/scala-2.13/test-classes ...[0m
+2023.08.04 08:20:38 INFO  done compiling[0m
+2023.08.04 08:20:38 INFO  time: compiled root-test in 2.16s[0m
+2023.08.04 08:20:38 INFO  Processing buildTarget/scalaMainClasses[0m
+2023.08.04 08:20:38 INFO  compiling root[0m
+2023.08.04 08:20:38 INFO  time: compiled root in 8ms[0m
+2023.08.04 08:20:38 INFO  compiling root-test[0m
+2023.08.04 08:20:38 INFO  time: compiled root-test in 9ms[0m
+2023.08.04 08:20:38 INFO  Processing buildTarget/scalaTestClasses[0m
+2023.08.04 08:20:38 INFO  compiling root[0m
+2023.08.04 08:20:38 INFO  time: compiled root in 7ms[0m
+2023.08.04 08:20:38 INFO  compiling root-test[0m
+2023.08.04 08:20:38 INFO  time: compiled root-test in 7ms[0m
+2023.08.04 08:20:38 INFO  Processing buildTarget/jvmRunEnvironment[0m
+2023.08.04 08:20:38 INFO  compiling root[0m
+2023.08.04 08:20:38 INFO  time: compiled root in 8ms[0m
+2023.08.04 08:20:38 INFO  compiling root-test[0m
+2023.08.04 08:20:38 INFO  time: compiled root-test in 6ms[0m
+2023.08.04 08:20:56 INFO  Processing workspace/reload[0m
+2023.08.04 08:20:56 INFO  compiling play-job-portal-build-build-build[0m
+2023.08.04 08:20:56 INFO  compiling play-job-portal-build-build[0m
+2023.08.04 08:20:56 INFO  compiling play-job-portal-build-build[0m
+2023.08.04 08:20:57 INFO  compiling play-job-portal-build[0m
+2023.08.04 08:20:59 INFO  Processing workspace/buildTargets[0m
+2023.08.04 08:20:59 INFO  Processing buildTarget/scalacOptions[0m
+2023.08.04 08:20:59 INFO  Processing buildTarget/sources[0m
+2023.08.04 08:20:59 INFO  Processing buildTarget/dependencySources[0m
+2023.08.04 08:21:00 INFO  time: Imported build in 0.72s[0m
+2023.08.04 08:21:00 INFO  Correctly reloaded workspace[0m
+2023.08.04 08:21:03 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip. Java symbols will not be available.[0m
+2023.08.04 08:21:03 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip. Java symbols will not be available.[0m
+2023.08.04 08:21:03 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip. Java symbols will not be available.[0m
+2023.08.04 08:21:03 INFO  time: indexed workspace in 3.24s[0m
+2023.08.04 08:21:03 INFO  Processing buildTarget/scalaMainClasses[0m
+2023.08.04 08:21:03 INFO  compiling root[0m
+2023.08.04 08:21:06 INFO  time: compiled root in 2.64s[0m
+2023.08.04 08:21:06 INFO  compiling root-test[0m
+2023.08.04 08:21:06 INFO  time: compiled root-test in 2ms[0m
+2023.08.04 08:21:20 INFO  Processing buildTarget/scalaTestClasses[0m
+2023.08.04 08:21:20 INFO  compiling root[0m
+2023.08.04 08:21:20 INFO  time: compiled root in 482μs[0m
+2023.08.04 08:21:20 INFO  compiling root-test[0m
+2023.08.04 08:21:20 INFO  time: compiled root-test in 329μs[0m
+2023.08.04 08:21:20 INFO  Processing buildTarget/jvmRunEnvironment[0m
+2023.08.04 08:21:20 INFO  compiling root[0m
+2023.08.04 08:21:20 INFO  time: compiled root in 11ms[0m
+2023.08.04 08:21:21 INFO  compiling root-test[0m
+2023.08.04 08:21:21 INFO  time: compiled root-test in 5ms[0m

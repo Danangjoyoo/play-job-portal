@@ -1,0 +1,45 @@
+java.util.NoSuchElementException: next on empty iterator
+occurred in the presentation compiler.
+
+action parameters:
+offset: 192
+uri: file://<WORKSPACE>/app/services/JobService.java
+text:
+package services;
+
+import jakarta.inject.Inject;
+import jakarta.inject.Singleton;
+import models.sql.Job;
+import repositories.JobRepository;
+import util.BaseService;
+
+import java.util.List;
+
+@Singl@@eton
+public class JobService extends BaseService {
+
+    private final JobRepository jobRepository;
+
+    @Inject
+    public JobService(JobRepository jobRepository) {
+        this.jobRepository = jobRepository;
+    }
+
+    public List<Job> getAllJobs() {
+        return jobRepository.selectAll();
+    }
+}
+
+
+
+error stacktrace:
+scala.collection.Iterator$$anon$19.next(Iterator.scala:973)
+	scala.collection.Iterator$$anon$19.next(Iterator.scala:971)
+	scala.collection.mutable.MutationTracker$CheckedIterator.next(MutationTracker.scala:76)
+	scala.collection.IterableOps.head(Iterable.scala:222)
+	scala.collection.IterableOps.head$(Iterable.scala:222)
+	scala.collection.AbstractIterable.head(Iterable.scala:933)
+	dotty.tools.dotc.interactive.InteractiveDriver.run(InteractiveDriver.scala:168)
+	scala.meta.internal.pc.MetalsDriver.run(MetalsDriver.scala:45)
+	scala.meta.internal.pc.HoverProvider$.hover(HoverProvider.scala:34)
+	scala.meta.internal.pc.ScalaPresentationCompiler.hover$$anonfun$1(ScalaPresentationCompiler.scala:325)

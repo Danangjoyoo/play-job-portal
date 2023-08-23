@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd"
+             version="2.1">
+    <persistence-unit name="defaultPersistenceUnit" transaction-type="RESOURCE_LOCAL">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <!-- Specify your entity classes here -->
+        <class>models.sql.User</class>
+        <class>models.sql.Job</class>
+        <properties>
+<!--            <property name="jakarta.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/play_jobportal_db"/>-->
+            <property name="jakarta.persistence.jdbc.url" value="jdbc:postgresql://play-job-portal-postgresql:5432/play_jobportal_db"/>
+            <property name="jakarta.persistence.jdbc.driver" value="org.postgresql.Driver"/>
+            <property name="jakarta.persistence.jdbc.user" value="local"/>
+            <property name="jakarta.persistence.jdbc.password" value="local123"/>
+        </properties>
+    </persistence-unit>
+</persistence>

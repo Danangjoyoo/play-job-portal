@@ -1,0 +1,77 @@
+version: "3.7"
+services:
+  backend:
+    container_name: play-job-portal-app
+    build:
+      context: .
+      dockerfile: dockerfile
+    volumes:
+      - ./play-job-portal:/base
+    working_dir: /base
+    depends_on:
+      database:
+        condition: service_healthy
+    ports:
+      - "9000:9000"
+    command: bash -c "sbt compile stage && ./target/universal/stage/bin/play-job-portal"
+
+  database:
+    image: postgres:15
+    container_name: play-job-portal-postgresql
+    restart: always
+    volumes:
+      - ./database/:/docker-entrypoint-initdb.d/
+    environment:
+      POSTGRES_USER: local
+      POSTGRES_PASSWORD: local123
+      POSTGRES_DB: play_jobportal_db
+    healthcheck:
+      test: ["CMD-SHELL", "sh -c 'pg_isready -U local -d play_jobportal_db'"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    ports:
+      - "5432:5432"
+
+  redis:
+    container_name: play-job-portal-redis
+    image: redis:latest
+    command: [ "redis-server" ]
+    ports:
+      - "6379:6379"
+
+  mongodb:
+    container_name: play-job-portal-mongo
+    image: mongo:7.0.0-rc7
+    volumes:
+      - "./mongo/initdb/:/docker-entrypoint-initdb.d/"
+      - "./mongo/conf/:/etc/mongo/"
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: root
+      MONGO_INITDB_DATABASE: play_jobportal_mongo
+    ports:
+      - "27017:27017"
+
+  elasticsearch:
+    container_name: play-job-portal-es
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.2.0
+    environment:
+      - xpack.security.enabled=false
+      - discovery.type=single-node
+      - cluster.name=play-job-cluster
+    mem_limit: 2g
+    ports:
+      - "9200:9200"
+
+  kibana:
+    container_name: play-job-portal-kibana
+    image: docker.elastic.co/kibana/kibana:8.2.0
+    environment:
+      - ELASTICSEARCH_HOSTS=http://play-job-portal-es:9200
+      - ELASTICSEARCH_PORTS=9201
+    mem_limit: 2g
+    depends_on:
+      - elasticsearch
+    ports:
+      - "5601:5601"

@@ -1,0 +1,3025 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "root-test",
+        "directory": "/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal",
+        "workspaceDir": "/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal",
+        "sources": [
+            "/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/test",
+            "/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/test-2.13",
+            "/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/test-2",
+            "/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/target/scala-2.13/src_managed/test",
+            "/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/target/scala-2.13/twirl/test",
+            "/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/target/scala-2.13/routes/test"
+        ],
+        "dependencies": [
+            "root"
+        ],
+        "classpath": [
+            "/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/.bloop/root/scala-2.13/classes",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.11/scala-library-2.13.11.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/twirl-api_2.13/1.5.1/twirl-api_2.13-1.5.1.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-server_2.13/2.8.20/play-server_2.13-2.8.20.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-test_2.13/2.8.20/play-test_2.13-2.8.20.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-logback_2.13/2.8.20/play-logback_2.13-2.8.20.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-akka-http-server_2.13/2.8.20/play-akka-http-server_2.13-2.8.20.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-java-forms_2.13/2.8.20/play-java-forms_2.13-2.8.20.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/filters-helpers_2.13/2.8.20/filters-helpers_2.13-2.8.20.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-guice_2.13/2.8.20/play-guice_2.13-2.8.20.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/inject/guice/5.1.0/guice-5.1.0.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/inject/extensions/guice-assistedinject/5.1.0/guice-assistedinject-5.1.0.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/projectlombok/lombok/1.18.28/lombok-1.18.28.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/postgresql/postgresql/42.6.0/postgresql-42.6.0.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.11.4/jackson-databind-2.11.4.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/1.3.1/scala-xml_2.13-1.3.1.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play_2.13/2.8.20/play_2.13-2.8.20.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/junit/junit/4.13.2/junit-4.13.2.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/novocode/junit-interface/0.11/junit-interface-0.11.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/guava/guava/30.1.1-jre/guava-30.1.1-jre.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.12/logback-classic-1.2.12.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/fluentlenium/fluentlenium-core/3.7.1/fluentlenium-core-3.7.1.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/seleniumhq/selenium/htmlunit-driver/2.36.0/htmlunit-driver-2.36.0.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-streams_2.13/2.8.20/play-streams_2.13-2.8.20.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.13/10.1.15/akka-http-core_2.13-10.1.15.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-java_2.13/2.8.20/play-java_2.13-2.8.20.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.13/1.0.2/scala-java8-compat_2.13-1.0.2.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/net/jodah/typetools/0.5.0/typetools-0.5.0.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/hibernate/validator/hibernate-validator/6.1.7.Final/hibernate-validator-6.1.7.Final.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/springframework/spring-context/5.2.24.RELEASE/spring-context-5.2.24.RELEASE.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/springframework/spring-core/5.2.24.RELEASE/spring-core-5.2.24.RELEASE.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/springframework/spring-beans/5.2.24.RELEASE/spring-beans-5.2.24.RELEASE.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/hibernate/orm/hibernate-core/6.2.5.Final/hibernate-core-6.2.5.Final.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/checkerframework/checker-qual/3.31.0/checker-qual-3.31.0.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.11.4/jackson-annotations-2.11.4.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.11.4/jackson-core-2.11.4.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/build-link/2.8.20/build-link-2.8.20.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.36/jul-to-slf4j-1.7.36.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.36/jcl-over-slf4j-1.7.36.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.13/2.6.21/akka-actor_2.13-2.6.21.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor-typed_2.13/2.6.21/akka-actor-typed_2.13-2.6.21.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.13/2.6.21/akka-slf4j_2.13-2.6.21.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-serialization-jackson_2.13/2.6.21/akka-serialization-jackson_2.13-2.6.21.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.11.4/jackson-datatype-jdk8-2.11.4.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.11.4/jackson-datatype-jsr310-2.11.4.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-json_2.13/2.8.2/play-json_2.13-2.8.2.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/io/jsonwebtoken/jjwt/0.9.1/jjwt-0.9.1.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/4.0.0/jakarta.xml.bind-api-4.0.0.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/jakarta/transaction/jakarta.transaction-api/2.0.1/jakarta.transaction-api-2.0.1.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.13/0.4.3/ssl-config-core_2.13-0.4.3.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.13/1.1.2/scala-parser-combinators_2.13-1.1.2.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.5.1/error_prone_annotations-2.5.1.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.12/logback-core-1.2.12.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/atteo/classindex/classindex/3.4/classindex-3.4.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-io/commons-io/2.6/commons-io-2.6.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.9/commons-lang3-3.9.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5.9/httpclient-4.5.9.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/net/sourceforge/htmlunit/htmlunit/2.36.0/htmlunit-2.36.0.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.12.18/byte-buddy-1.12.18.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.13/2.6.21/akka-stream_2.13-2.6.21.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.13/10.1.15/akka-parsing_2.13-10.1.15.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/jakarta/validation/jakarta.validation-api/2.0.2/jakarta.validation-api-2.0.2.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jboss/logging/jboss-logging/3.5.0.Final/jboss-logging-3.5.0.Final.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/classmate/1.5.1/classmate-1.5.1.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/hibernate/common/hibernate-commons-annotations/6.0.6.Final/hibernate-commons-annotations-6.0.6.Final.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/io/smallrye/jandex/3.0.5/jandex-3.0.5.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/glassfish/jaxb/jaxb-runtime/4.0.2/jaxb-runtime-4.0.2.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/jakarta/inject/jakarta.inject-api/2.0.1/jakarta.inject-api-2.0.1.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/antlr4-runtime/4.10.1/antlr4-runtime-4.10.1.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-exceptions/2.8.20/play-exceptions-2.8.20.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.2/config-1.4.2.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-parameter-names/2.11.4/jackson-module-parameter-names-2.11.4.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.11.4/jackson-dataformat-cbor-2.11.4.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.13/2.11.4/jackson-module-scala_2.13-2.11.4.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/lz4/lz4-java/1.8.0/lz4-java-1.8.0.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-functional_2.13/2.8.2/play-functional_2.13-2.8.2.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.11/scala-reflect-2.13.11.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/joda-time/joda-time/2.10.5/joda-time-2.10.5.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/2.1.1/jakarta.activation-api-2.1.1.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.11/httpcore-4.4.11.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-codec/commons-codec/1.11/commons-codec-1.11.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/xalan/xalan/2.7.2/xalan-2.7.2.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-text/1.7/commons-text-1.7.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpmime/4.5.9/httpmime-4.5.9.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/net/sourceforge/htmlunit/htmlunit-core-js/2.36.0/htmlunit-core-js-2.36.0.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/net/sourceforge/htmlunit/neko-htmlunit/2.36.0/neko-htmlunit-2.36.0.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/net/sourceforge/htmlunit/htmlunit-cssparser/1.5.0/htmlunit-cssparser-1.5.0.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-net/commons-net/3.6/commons-net-3.6.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/brotli/dec/0.1.2/dec-0.1.2.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-client/9.4.20.v20190813/websocket-client-9.4.20.v20190813.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf-v3_2.13/2.6.21/akka-protobuf-v3_2.13-2.6.21.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/glassfish/jaxb/jaxb-core/4.0.2/jaxb-core-4.0.2.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-paranamer/2.11.4/jackson-module-paranamer-2.11.4.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/xalan/serializer/2.7.2/serializer-2.7.2.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/xerces/xercesImpl/2.12.0/xercesImpl-2.12.0.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-client/9.4.20.v20190813/jetty-client-9.4.20.v20190813.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-xml/9.4.20.v20190813/jetty-xml-9.4.20.v20190813.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/9.4.20.v20190813/jetty-util-9.4.20.v20190813.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/9.4.20.v20190813/jetty-io-9.4.20.v20190813.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-common/9.4.20.v20190813/websocket-common-9.4.20.v20190813.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/angus/angus-activation/2.0.0/angus-activation-2.0.0.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/glassfish/jaxb/txw2/4.0.2/txw2-4.0.2.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/sun/istack/istack-commons-runtime/4.1.1/istack-commons-runtime-4.1.1.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/9.4.20.v20190813/jetty-http-9.4.20.v20190813.jar",
+            "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-api/9.4.20.v20190813/websocket-api-9.4.20.v20190813.jar"
+        ],
+        "out": "/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/.bloop/root",
+        "classesDir": "/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/.bloop/root/scala-2.13/test-classes",
+        "resources": [
+            "/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/test/resources",
+            "/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal/target/scala-2.13/resource_managed/test"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "2.13.11",
+            "options": [
+                "-deprecation",
+                "-unchecked",
+                "-encoding",
+                "utf8"
+            ],
+            "jars": [
+                "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.11/scala-library-2.13.11.jar",
+                "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.11/scala-compiler-2.13.11.jar",
+                "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.11/scala-reflect-2.13.11.jar",
+                "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/java-diff-utils/java-diff-utils/4.12/java-diff-utils-4.12.jar",
+                "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.22.0/jline-3.22.0.jar",
+                "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar"
+            ],
+            "setup": {
+                "order": "mixed",
+                "addLibraryToBootClasspath": true,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": true,
+                "filterLibraryFromClasspath": true
+            }
+        },
+        "java": {
+            "options": [
+                "-encoding",
+                "utf8",
+                "-g"
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "munit.Framework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    {
+                        "args": [
+                            "--ignore-runners=org.specs2.runner.JUnitRunner"
+                        ],
+                        "framework": {
+                            "names": [
+                                "com.novocode.junit.JUnitFramework"
+                            ]
+                        }
+                    },
+                    {
+                        "args": [
+                            "sequential",
+                            "true",
+                            "junitxml",
+                            "console"
+                        ],
+                        "framework": {
+                            "names": [
+                                "org.specs2.runner.Specs2Framework",
+                                "org.specs2.runner.SpecsFramework"
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "/usr/lib/jvm/java-17-openjdk-amd64",
+                "options": [
+                    "-Duser.dir=/home/danangjoyoo/dev/exjava/play-framework/my-projects/job-portal/play-job-portal"
+                ]
+            },
+            "mainClass": [
+                
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.13.11",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.11/scala-library-2.13.11.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.11/scala-library-2.13.11-sources.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.11/scala-library-2.13.11-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.play",
+                    "name": "twirl-api_2.13",
+                    "version": "1.5.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "twirl-api_2.13",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/twirl-api_2.13/1.5.1/twirl-api_2.13-1.5.1.jar"
+                        },
+                        {
+                            "name": "twirl-api_2.13",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/twirl-api_2.13/1.5.1/twirl-api_2.13-1.5.1-sources.jar"
+                        },
+                        {
+                            "name": "twirl-api_2.13",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/twirl-api_2.13/1.5.1/twirl-api_2.13-1.5.1-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.play",
+                    "name": "play-server_2.13",
+                    "version": "2.8.20",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "play-server_2.13",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-server_2.13/2.8.20/play-server_2.13-2.8.20.jar"
+                        },
+                        {
+                            "name": "play-server_2.13",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-server_2.13/2.8.20/play-server_2.13-2.8.20-sources.jar"
+                        },
+                        {
+                            "name": "play-server_2.13",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-server_2.13/2.8.20/play-server_2.13-2.8.20-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.play",
+                    "name": "play-logback_2.13",
+                    "version": "2.8.20",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "play-logback_2.13",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-logback_2.13/2.8.20/play-logback_2.13-2.8.20.jar"
+                        },
+                        {
+                            "name": "play-logback_2.13",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-logback_2.13/2.8.20/play-logback_2.13-2.8.20-sources.jar"
+                        },
+                        {
+                            "name": "play-logback_2.13",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-logback_2.13/2.8.20/play-logback_2.13-2.8.20-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.play",
+                    "name": "play-akka-http-server_2.13",
+                    "version": "2.8.20",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "play-akka-http-server_2.13",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-akka-http-server_2.13/2.8.20/play-akka-http-server_2.13-2.8.20.jar"
+                        },
+                        {
+                            "name": "play-akka-http-server_2.13",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-akka-http-server_2.13/2.8.20/play-akka-http-server_2.13-2.8.20-sources.jar"
+                        },
+                        {
+                            "name": "play-akka-http-server_2.13",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-akka-http-server_2.13/2.8.20/play-akka-http-server_2.13-2.8.20-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.play",
+                    "name": "play-java-forms_2.13",
+                    "version": "2.8.20",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "play-java-forms_2.13",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-java-forms_2.13/2.8.20/play-java-forms_2.13-2.8.20.jar"
+                        },
+                        {
+                            "name": "play-java-forms_2.13",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-java-forms_2.13/2.8.20/play-java-forms_2.13-2.8.20-sources.jar"
+                        },
+                        {
+                            "name": "play-java-forms_2.13",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-java-forms_2.13/2.8.20/play-java-forms_2.13-2.8.20-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.play",
+                    "name": "filters-helpers_2.13",
+                    "version": "2.8.20",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "filters-helpers_2.13",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/filters-helpers_2.13/2.8.20/filters-helpers_2.13-2.8.20.jar"
+                        },
+                        {
+                            "name": "filters-helpers_2.13",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/filters-helpers_2.13/2.8.20/filters-helpers_2.13-2.8.20-sources.jar"
+                        },
+                        {
+                            "name": "filters-helpers_2.13",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/filters-helpers_2.13/2.8.20/filters-helpers_2.13-2.8.20-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.play",
+                    "name": "play-guice_2.13",
+                    "version": "2.8.20",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "play-guice_2.13",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-guice_2.13/2.8.20/play-guice_2.13-2.8.20.jar"
+                        },
+                        {
+                            "name": "play-guice_2.13",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-guice_2.13/2.8.20/play-guice_2.13-2.8.20-sources.jar"
+                        },
+                        {
+                            "name": "play-guice_2.13",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-guice_2.13/2.8.20/play-guice_2.13-2.8.20-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.inject",
+                    "name": "guice",
+                    "version": "5.1.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "guice",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/inject/guice/5.1.0/guice-5.1.0.jar"
+                        },
+                        {
+                            "name": "guice",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/inject/guice/5.1.0/guice-5.1.0-sources.jar"
+                        },
+                        {
+                            "name": "guice",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/inject/guice/5.1.0/guice-5.1.0-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.inject.extensions",
+                    "name": "guice-assistedinject",
+                    "version": "5.1.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "guice-assistedinject",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/inject/extensions/guice-assistedinject/5.1.0/guice-assistedinject-5.1.0.jar"
+                        },
+                        {
+                            "name": "guice-assistedinject",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/inject/extensions/guice-assistedinject/5.1.0/guice-assistedinject-5.1.0-sources.jar"
+                        },
+                        {
+                            "name": "guice-assistedinject",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/inject/extensions/guice-assistedinject/5.1.0/guice-assistedinject-5.1.0-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.projectlombok",
+                    "name": "lombok",
+                    "version": "1.18.28",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "lombok",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/projectlombok/lombok/1.18.28/lombok-1.18.28.jar"
+                        },
+                        {
+                            "name": "lombok",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/projectlombok/lombok/1.18.28/lombok-1.18.28-sources.jar"
+                        },
+                        {
+                            "name": "lombok",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/projectlombok/lombok/1.18.28/lombok-1.18.28-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "jakarta.persistence",
+                    "name": "jakarta.persistence-api",
+                    "version": "3.1.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jakarta.persistence-api",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar"
+                        },
+                        {
+                            "name": "jakarta.persistence-api",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0-sources.jar"
+                        },
+                        {
+                            "name": "jakarta.persistence-api",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.postgresql",
+                    "name": "postgresql",
+                    "version": "42.6.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "postgresql",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/postgresql/postgresql/42.6.0/postgresql-42.6.0.jar"
+                        },
+                        {
+                            "name": "postgresql",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/postgresql/postgresql/42.6.0/postgresql-42.6.0-sources.jar"
+                        },
+                        {
+                            "name": "postgresql",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/postgresql/postgresql/42.6.0/postgresql-42.6.0-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.core",
+                    "name": "jackson-databind",
+                    "version": "2.11.4",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jackson-databind",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.11.4/jackson-databind-2.11.4.jar"
+                        },
+                        {
+                            "name": "jackson-databind",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.11.4/jackson-databind-2.11.4-sources.jar"
+                        },
+                        {
+                            "name": "jackson-databind",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.11.4/jackson-databind-2.11.4-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang.modules",
+                    "name": "scala-xml_2.13",
+                    "version": "1.3.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-xml_2.13",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/1.3.1/scala-xml_2.13-1.3.1.jar"
+                        },
+                        {
+                            "name": "scala-xml_2.13",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/1.3.1/scala-xml_2.13-1.3.1-sources.jar"
+                        },
+                        {
+                            "name": "scala-xml_2.13",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/1.3.1/scala-xml_2.13-1.3.1-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.play",
+                    "name": "play_2.13",
+                    "version": "2.8.20",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "play_2.13",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play_2.13/2.8.20/play_2.13-2.8.20.jar"
+                        },
+                        {
+                            "name": "play_2.13",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play_2.13/2.8.20/play_2.13-2.8.20-sources.jar"
+                        },
+                        {
+                            "name": "play_2.13",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play_2.13/2.8.20/play_2.13-2.8.20-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "ch.qos.logback",
+                    "name": "logback-classic",
+                    "version": "1.2.12",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "logback-classic",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.12/logback-classic-1.2.12.jar"
+                        },
+                        {
+                            "name": "logback-classic",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.12/logback-classic-1.2.12-sources.jar"
+                        },
+                        {
+                            "name": "logback-classic",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.12/logback-classic-1.2.12-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.play",
+                    "name": "play-streams_2.13",
+                    "version": "2.8.20",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "play-streams_2.13",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-streams_2.13/2.8.20/play-streams_2.13-2.8.20.jar"
+                        },
+                        {
+                            "name": "play-streams_2.13",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-streams_2.13/2.8.20/play-streams_2.13-2.8.20-sources.jar"
+                        },
+                        {
+                            "name": "play-streams_2.13",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-streams_2.13/2.8.20/play-streams_2.13-2.8.20-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.akka",
+                    "name": "akka-http-core_2.13",
+                    "version": "10.1.15",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "akka-http-core_2.13",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.13/10.1.15/akka-http-core_2.13-10.1.15.jar"
+                        },
+                        {
+                            "name": "akka-http-core_2.13",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.13/10.1.15/akka-http-core_2.13-10.1.15-sources.jar"
+                        },
+                        {
+                            "name": "akka-http-core_2.13",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.13/10.1.15/akka-http-core_2.13-10.1.15-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.play",
+                    "name": "play-java_2.13",
+                    "version": "2.8.20",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "play-java_2.13",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-java_2.13/2.8.20/play-java_2.13-2.8.20.jar"
+                        },
+                        {
+                            "name": "play-java_2.13",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-java_2.13/2.8.20/play-java_2.13-2.8.20-sources.jar"
+                        },
+                        {
+                            "name": "play-java_2.13",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-java_2.13/2.8.20/play-java_2.13-2.8.20-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang.modules",
+                    "name": "scala-java8-compat_2.13",
+                    "version": "1.0.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-java8-compat_2.13",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.13/1.0.2/scala-java8-compat_2.13-1.0.2.jar"
+                        },
+                        {
+                            "name": "scala-java8-compat_2.13",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.13/1.0.2/scala-java8-compat_2.13-1.0.2-sources.jar"
+                        },
+                        {
+                            "name": "scala-java8-compat_2.13",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.13/1.0.2/scala-java8-compat_2.13-1.0.2-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "net.jodah",
+                    "name": "typetools",
+                    "version": "0.5.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "typetools",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/net/jodah/typetools/0.5.0/typetools-0.5.0.jar"
+                        },
+                        {
+                            "name": "typetools",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/net/jodah/typetools/0.5.0/typetools-0.5.0-sources.jar"
+                        },
+                        {
+                            "name": "typetools",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/net/jodah/typetools/0.5.0/typetools-0.5.0-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.hibernate.validator",
+                    "name": "hibernate-validator",
+                    "version": "6.1.7.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "hibernate-validator",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/hibernate/validator/hibernate-validator/6.1.7.Final/hibernate-validator-6.1.7.Final.jar"
+                        },
+                        {
+                            "name": "hibernate-validator",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/hibernate/validator/hibernate-validator/6.1.7.Final/hibernate-validator-6.1.7.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework",
+                    "name": "spring-context",
+                    "version": "5.2.24.RELEASE",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "spring-context",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/springframework/spring-context/5.2.24.RELEASE/spring-context-5.2.24.RELEASE.jar"
+                        },
+                        {
+                            "name": "spring-context",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/springframework/spring-context/5.2.24.RELEASE/spring-context-5.2.24.RELEASE-sources.jar"
+                        },
+                        {
+                            "name": "spring-context",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/springframework/spring-context/5.2.24.RELEASE/spring-context-5.2.24.RELEASE-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework",
+                    "name": "spring-core",
+                    "version": "5.2.24.RELEASE",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "spring-core",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/springframework/spring-core/5.2.24.RELEASE/spring-core-5.2.24.RELEASE.jar"
+                        },
+                        {
+                            "name": "spring-core",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/springframework/spring-core/5.2.24.RELEASE/spring-core-5.2.24.RELEASE-sources.jar"
+                        },
+                        {
+                            "name": "spring-core",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/springframework/spring-core/5.2.24.RELEASE/spring-core-5.2.24.RELEASE-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework",
+                    "name": "spring-beans",
+                    "version": "5.2.24.RELEASE",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "spring-beans",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/springframework/spring-beans/5.2.24.RELEASE/spring-beans-5.2.24.RELEASE.jar"
+                        },
+                        {
+                            "name": "spring-beans",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/springframework/spring-beans/5.2.24.RELEASE/spring-beans-5.2.24.RELEASE-sources.jar"
+                        },
+                        {
+                            "name": "spring-beans",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/springframework/spring-beans/5.2.24.RELEASE/spring-beans-5.2.24.RELEASE-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "javax.inject",
+                    "name": "javax.inject",
+                    "version": "1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "javax.inject",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar"
+                        },
+                        {
+                            "name": "javax.inject",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1-sources.jar"
+                        },
+                        {
+                            "name": "javax.inject",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "aopalliance",
+                    "name": "aopalliance",
+                    "version": "1.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "aopalliance",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar"
+                        },
+                        {
+                            "name": "aopalliance",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.guava",
+                    "name": "guava",
+                    "version": "30.1.1-jre",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "guava",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/guava/guava/30.1.1-jre/guava-30.1.1-jre.jar"
+                        },
+                        {
+                            "name": "guava",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/guava/guava/30.1.1-jre/guava-30.1.1-jre-sources.jar"
+                        },
+                        {
+                            "name": "guava",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/guava/guava/30.1.1-jre/guava-30.1.1-jre-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.hibernate.orm",
+                    "name": "hibernate-core",
+                    "version": "6.2.5.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "hibernate-core",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/hibernate/orm/hibernate-core/6.2.5.Final/hibernate-core-6.2.5.Final.jar"
+                        },
+                        {
+                            "name": "hibernate-core",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/hibernate/orm/hibernate-core/6.2.5.Final/hibernate-core-6.2.5.Final-sources.jar"
+                        },
+                        {
+                            "name": "hibernate-core",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/hibernate/orm/hibernate-core/6.2.5.Final/hibernate-core-6.2.5.Final-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.checkerframework",
+                    "name": "checker-qual",
+                    "version": "3.31.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "checker-qual",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/checkerframework/checker-qual/3.31.0/checker-qual-3.31.0.jar"
+                        },
+                        {
+                            "name": "checker-qual",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/checkerframework/checker-qual/3.31.0/checker-qual-3.31.0-sources.jar"
+                        },
+                        {
+                            "name": "checker-qual",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/checkerframework/checker-qual/3.31.0/checker-qual-3.31.0-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.core",
+                    "name": "jackson-annotations",
+                    "version": "2.11.4",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jackson-annotations",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.11.4/jackson-annotations-2.11.4.jar"
+                        },
+                        {
+                            "name": "jackson-annotations",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.11.4/jackson-annotations-2.11.4-sources.jar"
+                        },
+                        {
+                            "name": "jackson-annotations",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.11.4/jackson-annotations-2.11.4-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.core",
+                    "name": "jackson-core",
+                    "version": "2.11.4",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jackson-core",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.11.4/jackson-core-2.11.4.jar"
+                        },
+                        {
+                            "name": "jackson-core",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.11.4/jackson-core-2.11.4-sources.jar"
+                        },
+                        {
+                            "name": "jackson-core",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.11.4/jackson-core-2.11.4-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.play",
+                    "name": "build-link",
+                    "version": "2.8.20",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "build-link",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/build-link/2.8.20/build-link-2.8.20.jar"
+                        },
+                        {
+                            "name": "build-link",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/build-link/2.8.20/build-link-2.8.20-sources.jar"
+                        },
+                        {
+                            "name": "build-link",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/build-link/2.8.20/build-link-2.8.20-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.slf4j",
+                    "name": "slf4j-api",
+                    "version": "1.7.36",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "slf4j-api",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar"
+                        },
+                        {
+                            "name": "slf4j-api",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36-sources.jar"
+                        },
+                        {
+                            "name": "slf4j-api",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.slf4j",
+                    "name": "jul-to-slf4j",
+                    "version": "1.7.36",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jul-to-slf4j",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.36/jul-to-slf4j-1.7.36.jar"
+                        },
+                        {
+                            "name": "jul-to-slf4j",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.36/jul-to-slf4j-1.7.36-sources.jar"
+                        },
+                        {
+                            "name": "jul-to-slf4j",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.36/jul-to-slf4j-1.7.36-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.slf4j",
+                    "name": "jcl-over-slf4j",
+                    "version": "1.7.36",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jcl-over-slf4j",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.36/jcl-over-slf4j-1.7.36.jar"
+                        },
+                        {
+                            "name": "jcl-over-slf4j",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.36/jcl-over-slf4j-1.7.36-sources.jar"
+                        },
+                        {
+                            "name": "jcl-over-slf4j",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.36/jcl-over-slf4j-1.7.36-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.akka",
+                    "name": "akka-actor_2.13",
+                    "version": "2.6.21",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "akka-actor_2.13",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.13/2.6.21/akka-actor_2.13-2.6.21.jar"
+                        },
+                        {
+                            "name": "akka-actor_2.13",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.13/2.6.21/akka-actor_2.13-2.6.21-sources.jar"
+                        },
+                        {
+                            "name": "akka-actor_2.13",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.13/2.6.21/akka-actor_2.13-2.6.21-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.akka",
+                    "name": "akka-actor-typed_2.13",
+                    "version": "2.6.21",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "akka-actor-typed_2.13",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor-typed_2.13/2.6.21/akka-actor-typed_2.13-2.6.21.jar"
+                        },
+                        {
+                            "name": "akka-actor-typed_2.13",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor-typed_2.13/2.6.21/akka-actor-typed_2.13-2.6.21-sources.jar"
+                        },
+                        {
+                            "name": "akka-actor-typed_2.13",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor-typed_2.13/2.6.21/akka-actor-typed_2.13-2.6.21-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.akka",
+                    "name": "akka-slf4j_2.13",
+                    "version": "2.6.21",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "akka-slf4j_2.13",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.13/2.6.21/akka-slf4j_2.13-2.6.21.jar"
+                        },
+                        {
+                            "name": "akka-slf4j_2.13",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.13/2.6.21/akka-slf4j_2.13-2.6.21-sources.jar"
+                        },
+                        {
+                            "name": "akka-slf4j_2.13",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.13/2.6.21/akka-slf4j_2.13-2.6.21-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.akka",
+                    "name": "akka-serialization-jackson_2.13",
+                    "version": "2.6.21",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "akka-serialization-jackson_2.13",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-serialization-jackson_2.13/2.6.21/akka-serialization-jackson_2.13-2.6.21.jar"
+                        },
+                        {
+                            "name": "akka-serialization-jackson_2.13",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-serialization-jackson_2.13/2.6.21/akka-serialization-jackson_2.13-2.6.21-sources.jar"
+                        },
+                        {
+                            "name": "akka-serialization-jackson_2.13",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-serialization-jackson_2.13/2.6.21/akka-serialization-jackson_2.13-2.6.21-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.datatype",
+                    "name": "jackson-datatype-jdk8",
+                    "version": "2.11.4",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jackson-datatype-jdk8",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.11.4/jackson-datatype-jdk8-2.11.4.jar"
+                        },
+                        {
+                            "name": "jackson-datatype-jdk8",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.11.4/jackson-datatype-jdk8-2.11.4-sources.jar"
+                        },
+                        {
+                            "name": "jackson-datatype-jdk8",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.11.4/jackson-datatype-jdk8-2.11.4-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.datatype",
+                    "name": "jackson-datatype-jsr310",
+                    "version": "2.11.4",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jackson-datatype-jsr310",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.11.4/jackson-datatype-jsr310-2.11.4.jar"
+                        },
+                        {
+                            "name": "jackson-datatype-jsr310",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.11.4/jackson-datatype-jsr310-2.11.4-sources.jar"
+                        },
+                        {
+                            "name": "jackson-datatype-jsr310",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.11.4/jackson-datatype-jsr310-2.11.4-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.play",
+                    "name": "play-json_2.13",
+                    "version": "2.8.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "play-json_2.13",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-json_2.13/2.8.2/play-json_2.13-2.8.2.jar"
+                        },
+                        {
+                            "name": "play-json_2.13",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-json_2.13/2.8.2/play-json_2.13-2.8.2-sources.jar"
+                        },
+                        {
+                            "name": "play-json_2.13",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-json_2.13/2.8.2/play-json_2.13-2.8.2-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.jsonwebtoken",
+                    "name": "jjwt",
+                    "version": "0.9.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jjwt",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/io/jsonwebtoken/jjwt/0.9.1/jjwt-0.9.1.jar"
+                        },
+                        {
+                            "name": "jjwt",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/io/jsonwebtoken/jjwt/0.9.1/jjwt-0.9.1-sources.jar"
+                        },
+                        {
+                            "name": "jjwt",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/io/jsonwebtoken/jjwt/0.9.1/jjwt-0.9.1-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "jakarta.xml.bind",
+                    "name": "jakarta.xml.bind-api",
+                    "version": "4.0.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jakarta.xml.bind-api",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/4.0.0/jakarta.xml.bind-api-4.0.0.jar"
+                        },
+                        {
+                            "name": "jakarta.xml.bind-api",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/4.0.0/jakarta.xml.bind-api-4.0.0-sources.jar"
+                        },
+                        {
+                            "name": "jakarta.xml.bind-api",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/4.0.0/jakarta.xml.bind-api-4.0.0-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "jakarta.transaction",
+                    "name": "jakarta.transaction-api",
+                    "version": "2.0.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jakarta.transaction-api",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/jakarta/transaction/jakarta.transaction-api/2.0.1/jakarta.transaction-api-2.0.1.jar"
+                        },
+                        {
+                            "name": "jakarta.transaction-api",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/jakarta/transaction/jakarta.transaction-api/2.0.1/jakarta.transaction-api-2.0.1-sources.jar"
+                        },
+                        {
+                            "name": "jakarta.transaction-api",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/jakarta/transaction/jakarta.transaction-api/2.0.1/jakarta.transaction-api-2.0.1-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe",
+                    "name": "ssl-config-core_2.13",
+                    "version": "0.4.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "ssl-config-core_2.13",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.13/0.4.3/ssl-config-core_2.13-0.4.3.jar"
+                        },
+                        {
+                            "name": "ssl-config-core_2.13",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.13/0.4.3/ssl-config-core_2.13-0.4.3-sources.jar"
+                        },
+                        {
+                            "name": "ssl-config-core_2.13",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.13/0.4.3/ssl-config-core_2.13-0.4.3-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang.modules",
+                    "name": "scala-parser-combinators_2.13",
+                    "version": "1.1.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-parser-combinators_2.13",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.13/1.1.2/scala-parser-combinators_2.13-1.1.2.jar"
+                        },
+                        {
+                            "name": "scala-parser-combinators_2.13",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.13/1.1.2/scala-parser-combinators_2.13-1.1.2-sources.jar"
+                        },
+                        {
+                            "name": "scala-parser-combinators_2.13",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.13/1.1.2/scala-parser-combinators_2.13-1.1.2-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "ch.qos.logback",
+                    "name": "logback-core",
+                    "version": "1.2.12",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "logback-core",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.12/logback-core-1.2.12.jar"
+                        },
+                        {
+                            "name": "logback-core",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.12/logback-core-1.2.12-sources.jar"
+                        },
+                        {
+                            "name": "logback-core",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.12/logback-core-1.2.12-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.reactivestreams",
+                    "name": "reactive-streams",
+                    "version": "1.0.4",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "reactive-streams",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar"
+                        },
+                        {
+                            "name": "reactive-streams",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4-sources.jar"
+                        },
+                        {
+                            "name": "reactive-streams",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.akka",
+                    "name": "akka-stream_2.13",
+                    "version": "2.6.21",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "akka-stream_2.13",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.13/2.6.21/akka-stream_2.13-2.6.21.jar"
+                        },
+                        {
+                            "name": "akka-stream_2.13",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.13/2.6.21/akka-stream_2.13-2.6.21-sources.jar"
+                        },
+                        {
+                            "name": "akka-stream_2.13",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.13/2.6.21/akka-stream_2.13-2.6.21-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.akka",
+                    "name": "akka-parsing_2.13",
+                    "version": "10.1.15",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "akka-parsing_2.13",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.13/10.1.15/akka-parsing_2.13-10.1.15.jar"
+                        },
+                        {
+                            "name": "akka-parsing_2.13",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.13/10.1.15/akka-parsing_2.13-10.1.15-sources.jar"
+                        },
+                        {
+                            "name": "akka-parsing_2.13",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.13/10.1.15/akka-parsing_2.13-10.1.15-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "jakarta.validation",
+                    "name": "jakarta.validation-api",
+                    "version": "2.0.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jakarta.validation-api",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/jakarta/validation/jakarta.validation-api/2.0.2/jakarta.validation-api-2.0.2.jar"
+                        },
+                        {
+                            "name": "jakarta.validation-api",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/jakarta/validation/jakarta.validation-api/2.0.2/jakarta.validation-api-2.0.2-sources.jar"
+                        },
+                        {
+                            "name": "jakarta.validation-api",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/jakarta/validation/jakarta.validation-api/2.0.2/jakarta.validation-api-2.0.2-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.jboss.logging",
+                    "name": "jboss-logging",
+                    "version": "3.5.0.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jboss-logging",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jboss/logging/jboss-logging/3.5.0.Final/jboss-logging-3.5.0.Final.jar"
+                        },
+                        {
+                            "name": "jboss-logging",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jboss/logging/jboss-logging/3.5.0.Final/jboss-logging-3.5.0.Final-sources.jar"
+                        },
+                        {
+                            "name": "jboss-logging",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jboss/logging/jboss-logging/3.5.0.Final/jboss-logging-3.5.0.Final-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml",
+                    "name": "classmate",
+                    "version": "1.5.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "classmate",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/classmate/1.5.1/classmate-1.5.1.jar"
+                        },
+                        {
+                            "name": "classmate",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/classmate/1.5.1/classmate-1.5.1-sources.jar"
+                        },
+                        {
+                            "name": "classmate",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/classmate/1.5.1/classmate-1.5.1-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.guava",
+                    "name": "failureaccess",
+                    "version": "1.0.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "failureaccess",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar"
+                        },
+                        {
+                            "name": "failureaccess",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1-sources.jar"
+                        },
+                        {
+                            "name": "failureaccess",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.guava",
+                    "name": "listenablefuture",
+                    "version": "9999.0-empty-to-avoid-conflict-with-guava",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "listenablefuture",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.code.findbugs",
+                    "name": "jsr305",
+                    "version": "3.0.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jsr305",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar"
+                        },
+                        {
+                            "name": "jsr305",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2-sources.jar"
+                        },
+                        {
+                            "name": "jsr305",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.errorprone",
+                    "name": "error_prone_annotations",
+                    "version": "2.5.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "error_prone_annotations",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.5.1/error_prone_annotations-2.5.1.jar"
+                        },
+                        {
+                            "name": "error_prone_annotations",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.5.1/error_prone_annotations-2.5.1-sources.jar"
+                        },
+                        {
+                            "name": "error_prone_annotations",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.5.1/error_prone_annotations-2.5.1-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.j2objc",
+                    "name": "j2objc-annotations",
+                    "version": "1.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "j2objc-annotations",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar"
+                        },
+                        {
+                            "name": "j2objc-annotations",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3-sources.jar"
+                        },
+                        {
+                            "name": "j2objc-annotations",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.hibernate.common",
+                    "name": "hibernate-commons-annotations",
+                    "version": "6.0.6.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "hibernate-commons-annotations",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/hibernate/common/hibernate-commons-annotations/6.0.6.Final/hibernate-commons-annotations-6.0.6.Final.jar"
+                        },
+                        {
+                            "name": "hibernate-commons-annotations",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/hibernate/common/hibernate-commons-annotations/6.0.6.Final/hibernate-commons-annotations-6.0.6.Final-sources.jar"
+                        },
+                        {
+                            "name": "hibernate-commons-annotations",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/hibernate/common/hibernate-commons-annotations/6.0.6.Final/hibernate-commons-annotations-6.0.6.Final-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.smallrye",
+                    "name": "jandex",
+                    "version": "3.0.5",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jandex",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/io/smallrye/jandex/3.0.5/jandex-3.0.5.jar"
+                        },
+                        {
+                            "name": "jandex",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/io/smallrye/jandex/3.0.5/jandex-3.0.5-sources.jar"
+                        },
+                        {
+                            "name": "jandex",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/io/smallrye/jandex/3.0.5/jandex-3.0.5-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "net.bytebuddy",
+                    "name": "byte-buddy",
+                    "version": "1.12.18",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "byte-buddy",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.12.18/byte-buddy-1.12.18.jar"
+                        },
+                        {
+                            "name": "byte-buddy",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.12.18/byte-buddy-1.12.18-sources.jar"
+                        },
+                        {
+                            "name": "byte-buddy",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.12.18/byte-buddy-1.12.18-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.glassfish.jaxb",
+                    "name": "jaxb-runtime",
+                    "version": "4.0.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jaxb-runtime",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/glassfish/jaxb/jaxb-runtime/4.0.2/jaxb-runtime-4.0.2.jar"
+                        },
+                        {
+                            "name": "jaxb-runtime",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/glassfish/jaxb/jaxb-runtime/4.0.2/jaxb-runtime-4.0.2-sources.jar"
+                        },
+                        {
+                            "name": "jaxb-runtime",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/glassfish/jaxb/jaxb-runtime/4.0.2/jaxb-runtime-4.0.2-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "jakarta.inject",
+                    "name": "jakarta.inject-api",
+                    "version": "2.0.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jakarta.inject-api",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/jakarta/inject/jakarta.inject-api/2.0.1/jakarta.inject-api-2.0.1.jar"
+                        },
+                        {
+                            "name": "jakarta.inject-api",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/jakarta/inject/jakarta.inject-api/2.0.1/jakarta.inject-api-2.0.1-sources.jar"
+                        },
+                        {
+                            "name": "jakarta.inject-api",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/jakarta/inject/jakarta.inject-api/2.0.1/jakarta.inject-api-2.0.1-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.antlr",
+                    "name": "antlr4-runtime",
+                    "version": "4.10.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "antlr4-runtime",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/antlr4-runtime/4.10.1/antlr4-runtime-4.10.1.jar"
+                        },
+                        {
+                            "name": "antlr4-runtime",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/antlr4-runtime/4.10.1/antlr4-runtime-4.10.1-sources.jar"
+                        },
+                        {
+                            "name": "antlr4-runtime",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/antlr4-runtime/4.10.1/antlr4-runtime-4.10.1-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.play",
+                    "name": "play-exceptions",
+                    "version": "2.8.20",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "play-exceptions",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-exceptions/2.8.20/play-exceptions-2.8.20.jar"
+                        },
+                        {
+                            "name": "play-exceptions",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-exceptions/2.8.20/play-exceptions-2.8.20-sources.jar"
+                        },
+                        {
+                            "name": "play-exceptions",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-exceptions/2.8.20/play-exceptions-2.8.20-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe",
+                    "name": "config",
+                    "version": "1.4.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "config",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.2/config-1.4.2.jar"
+                        },
+                        {
+                            "name": "config",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.2/config-1.4.2-sources.jar"
+                        },
+                        {
+                            "name": "config",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.2/config-1.4.2-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.module",
+                    "name": "jackson-module-parameter-names",
+                    "version": "2.11.4",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jackson-module-parameter-names",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-parameter-names/2.11.4/jackson-module-parameter-names-2.11.4.jar"
+                        },
+                        {
+                            "name": "jackson-module-parameter-names",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-parameter-names/2.11.4/jackson-module-parameter-names-2.11.4-sources.jar"
+                        },
+                        {
+                            "name": "jackson-module-parameter-names",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-parameter-names/2.11.4/jackson-module-parameter-names-2.11.4-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.dataformat",
+                    "name": "jackson-dataformat-cbor",
+                    "version": "2.11.4",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jackson-dataformat-cbor",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.11.4/jackson-dataformat-cbor-2.11.4.jar"
+                        },
+                        {
+                            "name": "jackson-dataformat-cbor",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.11.4/jackson-dataformat-cbor-2.11.4-sources.jar"
+                        },
+                        {
+                            "name": "jackson-dataformat-cbor",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.11.4/jackson-dataformat-cbor-2.11.4-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.module",
+                    "name": "jackson-module-scala_2.13",
+                    "version": "2.11.4",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jackson-module-scala_2.13",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.13/2.11.4/jackson-module-scala_2.13-2.11.4.jar"
+                        },
+                        {
+                            "name": "jackson-module-scala_2.13",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.13/2.11.4/jackson-module-scala_2.13-2.11.4-sources.jar"
+                        },
+                        {
+                            "name": "jackson-module-scala_2.13",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.13/2.11.4/jackson-module-scala_2.13-2.11.4-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.lz4",
+                    "name": "lz4-java",
+                    "version": "1.8.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "lz4-java",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/lz4/lz4-java/1.8.0/lz4-java-1.8.0.jar"
+                        },
+                        {
+                            "name": "lz4-java",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/lz4/lz4-java/1.8.0/lz4-java-1.8.0-sources.jar"
+                        },
+                        {
+                            "name": "lz4-java",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/lz4/lz4-java/1.8.0/lz4-java-1.8.0-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.play",
+                    "name": "play-functional_2.13",
+                    "version": "2.8.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "play-functional_2.13",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-functional_2.13/2.8.2/play-functional_2.13-2.8.2.jar"
+                        },
+                        {
+                            "name": "play-functional_2.13",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-functional_2.13/2.8.2/play-functional_2.13-2.8.2-sources.jar"
+                        },
+                        {
+                            "name": "play-functional_2.13",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-functional_2.13/2.8.2/play-functional_2.13-2.8.2-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-reflect",
+                    "version": "2.13.11",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-reflect",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.11/scala-reflect-2.13.11.jar"
+                        },
+                        {
+                            "name": "scala-reflect",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.11/scala-reflect-2.13.11-sources.jar"
+                        },
+                        {
+                            "name": "scala-reflect",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.11/scala-reflect-2.13.11-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "joda-time",
+                    "name": "joda-time",
+                    "version": "2.10.5",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "joda-time",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/joda-time/joda-time/2.10.5/joda-time-2.10.5.jar"
+                        },
+                        {
+                            "name": "joda-time",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/joda-time/joda-time/2.10.5/joda-time-2.10.5-sources.jar"
+                        },
+                        {
+                            "name": "joda-time",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/joda-time/joda-time/2.10.5/joda-time-2.10.5-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "jakarta.activation",
+                    "name": "jakarta.activation-api",
+                    "version": "2.1.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jakarta.activation-api",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/2.1.1/jakarta.activation-api-2.1.1.jar"
+                        },
+                        {
+                            "name": "jakarta.activation-api",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/2.1.1/jakarta.activation-api-2.1.1-sources.jar"
+                        },
+                        {
+                            "name": "jakarta.activation-api",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/2.1.1/jakarta.activation-api-2.1.1-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.akka",
+                    "name": "akka-protobuf-v3_2.13",
+                    "version": "2.6.21",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "akka-protobuf-v3_2.13",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf-v3_2.13/2.6.21/akka-protobuf-v3_2.13-2.6.21.jar"
+                        },
+                        {
+                            "name": "akka-protobuf-v3_2.13",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf-v3_2.13/2.6.21/akka-protobuf-v3_2.13-2.6.21-sources.jar"
+                        },
+                        {
+                            "name": "akka-protobuf-v3_2.13",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf-v3_2.13/2.6.21/akka-protobuf-v3_2.13-2.6.21-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.glassfish.jaxb",
+                    "name": "jaxb-core",
+                    "version": "4.0.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jaxb-core",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/glassfish/jaxb/jaxb-core/4.0.2/jaxb-core-4.0.2.jar"
+                        },
+                        {
+                            "name": "jaxb-core",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/glassfish/jaxb/jaxb-core/4.0.2/jaxb-core-4.0.2-sources.jar"
+                        },
+                        {
+                            "name": "jaxb-core",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/glassfish/jaxb/jaxb-core/4.0.2/jaxb-core-4.0.2-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.module",
+                    "name": "jackson-module-paranamer",
+                    "version": "2.11.4",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jackson-module-paranamer",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-paranamer/2.11.4/jackson-module-paranamer-2.11.4.jar"
+                        },
+                        {
+                            "name": "jackson-module-paranamer",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-paranamer/2.11.4/jackson-module-paranamer-2.11.4-sources.jar"
+                        },
+                        {
+                            "name": "jackson-module-paranamer",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-paranamer/2.11.4/jackson-module-paranamer-2.11.4-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.eclipse.angus",
+                    "name": "angus-activation",
+                    "version": "2.0.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "angus-activation",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/angus/angus-activation/2.0.0/angus-activation-2.0.0.jar"
+                        },
+                        {
+                            "name": "angus-activation",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/angus/angus-activation/2.0.0/angus-activation-2.0.0-sources.jar"
+                        },
+                        {
+                            "name": "angus-activation",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/angus/angus-activation/2.0.0/angus-activation-2.0.0-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.glassfish.jaxb",
+                    "name": "txw2",
+                    "version": "4.0.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "txw2",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/glassfish/jaxb/txw2/4.0.2/txw2-4.0.2.jar"
+                        },
+                        {
+                            "name": "txw2",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/glassfish/jaxb/txw2/4.0.2/txw2-4.0.2-sources.jar"
+                        },
+                        {
+                            "name": "txw2",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/glassfish/jaxb/txw2/4.0.2/txw2-4.0.2-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.sun.istack",
+                    "name": "istack-commons-runtime",
+                    "version": "4.1.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "istack-commons-runtime",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/sun/istack/istack-commons-runtime/4.1.1/istack-commons-runtime-4.1.1.jar"
+                        },
+                        {
+                            "name": "istack-commons-runtime",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/sun/istack/istack-commons-runtime/4.1.1/istack-commons-runtime-4.1.1-sources.jar"
+                        },
+                        {
+                            "name": "istack-commons-runtime",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/sun/istack/istack-commons-runtime/4.1.1/istack-commons-runtime-4.1.1-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.thoughtworks.paranamer",
+                    "name": "paranamer",
+                    "version": "2.8",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "paranamer",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8.jar"
+                        },
+                        {
+                            "name": "paranamer",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8-sources.jar"
+                        },
+                        {
+                            "name": "paranamer",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "commons-io",
+                    "name": "commons-io",
+                    "version": "2.6",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "commons-io",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-io/commons-io/2.6/commons-io-2.6.jar"
+                        },
+                        {
+                            "name": "commons-io",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-io/commons-io/2.6/commons-io-2.6-sources.jar"
+                        },
+                        {
+                            "name": "commons-io",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-io/commons-io/2.6/commons-io-2.6-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.13.11",
+                    "configurations": "optional",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.11/scala-library-2.13.11.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.11/scala-library-2.13.11-sources.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.11/scala-library-2.13.11-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.play",
+                    "name": "play-test_2.13",
+                    "version": "2.8.20",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "play-test_2.13",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-test_2.13/2.8.20/play-test_2.13-2.8.20.jar"
+                        },
+                        {
+                            "name": "play-test_2.13",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-test_2.13/2.8.20/play-test_2.13-2.8.20-sources.jar"
+                        },
+                        {
+                            "name": "play-test_2.13",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-test_2.13/2.8.20/play-test_2.13-2.8.20-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "junit",
+                    "name": "junit",
+                    "version": "4.13.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "junit",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/junit/junit/4.13.2/junit-4.13.2.jar"
+                        },
+                        {
+                            "name": "junit",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/junit/junit/4.13.2/junit-4.13.2-sources.jar"
+                        },
+                        {
+                            "name": "junit",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/junit/junit/4.13.2/junit-4.13.2-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.novocode",
+                    "name": "junit-interface",
+                    "version": "0.11",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "junit-interface",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/novocode/junit-interface/0.11/junit-interface-0.11.jar"
+                        },
+                        {
+                            "name": "junit-interface",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/novocode/junit-interface/0.11/junit-interface-0.11-sources.jar"
+                        },
+                        {
+                            "name": "junit-interface",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/novocode/junit-interface/0.11/junit-interface-0.11-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.fluentlenium",
+                    "name": "fluentlenium-core",
+                    "version": "3.7.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "fluentlenium-core",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/fluentlenium/fluentlenium-core/3.7.1/fluentlenium-core-3.7.1.jar"
+                        },
+                        {
+                            "name": "fluentlenium-core",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/fluentlenium/fluentlenium-core/3.7.1/fluentlenium-core-3.7.1-sources.jar"
+                        },
+                        {
+                            "name": "fluentlenium-core",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/fluentlenium/fluentlenium-core/3.7.1/fluentlenium-core-3.7.1-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.seleniumhq.selenium",
+                    "name": "htmlunit-driver",
+                    "version": "2.36.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "htmlunit-driver",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/seleniumhq/selenium/htmlunit-driver/2.36.0/htmlunit-driver-2.36.0.jar"
+                        },
+                        {
+                            "name": "htmlunit-driver",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/seleniumhq/selenium/htmlunit-driver/2.36.0/htmlunit-driver-2.36.0-sources.jar"
+                        },
+                        {
+                            "name": "htmlunit-driver",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/seleniumhq/selenium/htmlunit-driver/2.36.0/htmlunit-driver-2.36.0-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.seleniumhq.selenium",
+                    "name": "selenium-api",
+                    "version": "3.141.59",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "selenium-api",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar"
+                        },
+                        {
+                            "name": "selenium-api",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59-sources.jar"
+                        },
+                        {
+                            "name": "selenium-api",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.seleniumhq.selenium",
+                    "name": "selenium-support",
+                    "version": "3.141.59",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "selenium-support",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar"
+                        },
+                        {
+                            "name": "selenium-support",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59-sources.jar"
+                        },
+                        {
+                            "name": "selenium-support",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.seleniumhq.selenium",
+                    "name": "selenium-firefox-driver",
+                    "version": "3.141.59",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "selenium-firefox-driver",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar"
+                        },
+                        {
+                            "name": "selenium-firefox-driver",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59-sources.jar"
+                        },
+                        {
+                            "name": "selenium-firefox-driver",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.hamcrest",
+                    "name": "hamcrest-core",
+                    "version": "1.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "hamcrest-core",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"
+                        },
+                        {
+                            "name": "hamcrest-core",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3-sources.jar"
+                        },
+                        {
+                            "name": "hamcrest-core",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-sbt",
+                    "name": "test-interface",
+                    "version": "1.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "test-interface",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0.jar"
+                        },
+                        {
+                            "name": "test-interface",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0-sources.jar"
+                        },
+                        {
+                            "name": "test-interface",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.seleniumhq.selenium",
+                    "name": "selenium-remote-driver",
+                    "version": "3.141.59",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "selenium-remote-driver",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar"
+                        },
+                        {
+                            "name": "selenium-remote-driver",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59-sources.jar"
+                        },
+                        {
+                            "name": "selenium-remote-driver",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.atteo.classindex",
+                    "name": "classindex",
+                    "version": "3.4",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "classindex",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/atteo/classindex/classindex/3.4/classindex-3.4.jar"
+                        },
+                        {
+                            "name": "classindex",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/atteo/classindex/classindex/3.4/classindex-3.4-sources.jar"
+                        },
+                        {
+                            "name": "classindex",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/atteo/classindex/classindex/3.4/classindex-3.4-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.commons",
+                    "name": "commons-lang3",
+                    "version": "3.9",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "commons-lang3",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.9/commons-lang3-3.9.jar"
+                        },
+                        {
+                            "name": "commons-lang3",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.9/commons-lang3-3.9-sources.jar"
+                        },
+                        {
+                            "name": "commons-lang3",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.9/commons-lang3-3.9-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.httpcomponents",
+                    "name": "httpclient",
+                    "version": "4.5.9",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "httpclient",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5.9/httpclient-4.5.9.jar"
+                        },
+                        {
+                            "name": "httpclient",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5.9/httpclient-4.5.9-sources.jar"
+                        },
+                        {
+                            "name": "httpclient",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5.9/httpclient-4.5.9-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "net.sourceforge.htmlunit",
+                    "name": "htmlunit",
+                    "version": "2.36.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "htmlunit",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/net/sourceforge/htmlunit/htmlunit/2.36.0/htmlunit-2.36.0.jar"
+                        },
+                        {
+                            "name": "htmlunit",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/net/sourceforge/htmlunit/htmlunit/2.36.0/htmlunit-2.36.0-sources.jar"
+                        },
+                        {
+                            "name": "htmlunit",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/net/sourceforge/htmlunit/htmlunit/2.36.0/htmlunit-2.36.0-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.commons",
+                    "name": "commons-exec",
+                    "version": "1.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "commons-exec",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar"
+                        },
+                        {
+                            "name": "commons-exec",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-exec/1.3/commons-exec-1.3-sources.jar"
+                        },
+                        {
+                            "name": "commons-exec",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-exec/1.3/commons-exec-1.3-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.squareup.okhttp3",
+                    "name": "okhttp",
+                    "version": "3.11.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "okhttp",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar"
+                        },
+                        {
+                            "name": "okhttp",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0-sources.jar"
+                        },
+                        {
+                            "name": "okhttp",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.squareup.okio",
+                    "name": "okio",
+                    "version": "1.14.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "okio",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar"
+                        },
+                        {
+                            "name": "okio",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/squareup/okio/okio/1.14.0/okio-1.14.0-sources.jar"
+                        },
+                        {
+                            "name": "okio",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/squareup/okio/okio/1.14.0/okio-1.14.0-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.httpcomponents",
+                    "name": "httpcore",
+                    "version": "4.4.11",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "httpcore",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.11/httpcore-4.4.11.jar"
+                        },
+                        {
+                            "name": "httpcore",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.11/httpcore-4.4.11-sources.jar"
+                        },
+                        {
+                            "name": "httpcore",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.11/httpcore-4.4.11-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "commons-logging",
+                    "name": "commons-logging",
+                    "version": "1.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "commons-logging",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar"
+                        },
+                        {
+                            "name": "commons-logging",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2-sources.jar"
+                        },
+                        {
+                            "name": "commons-logging",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "commons-codec",
+                    "name": "commons-codec",
+                    "version": "1.11",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "commons-codec",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-codec/commons-codec/1.11/commons-codec-1.11.jar"
+                        },
+                        {
+                            "name": "commons-codec",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-codec/commons-codec/1.11/commons-codec-1.11-sources.jar"
+                        },
+                        {
+                            "name": "commons-codec",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-codec/commons-codec/1.11/commons-codec-1.11-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "xalan",
+                    "name": "xalan",
+                    "version": "2.7.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "xalan",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/xalan/xalan/2.7.2/xalan-2.7.2.jar"
+                        },
+                        {
+                            "name": "xalan",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/xalan/xalan/2.7.2/xalan-2.7.2-sources.jar"
+                        },
+                        {
+                            "name": "xalan",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/xalan/xalan/2.7.2/xalan-2.7.2-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.commons",
+                    "name": "commons-text",
+                    "version": "1.7",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "commons-text",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-text/1.7/commons-text-1.7.jar"
+                        },
+                        {
+                            "name": "commons-text",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-text/1.7/commons-text-1.7-sources.jar"
+                        },
+                        {
+                            "name": "commons-text",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-text/1.7/commons-text-1.7-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.httpcomponents",
+                    "name": "httpmime",
+                    "version": "4.5.9",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "httpmime",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpmime/4.5.9/httpmime-4.5.9.jar"
+                        },
+                        {
+                            "name": "httpmime",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpmime/4.5.9/httpmime-4.5.9-sources.jar"
+                        },
+                        {
+                            "name": "httpmime",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpmime/4.5.9/httpmime-4.5.9-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "net.sourceforge.htmlunit",
+                    "name": "htmlunit-core-js",
+                    "version": "2.36.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "htmlunit-core-js",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/net/sourceforge/htmlunit/htmlunit-core-js/2.36.0/htmlunit-core-js-2.36.0.jar"
+                        },
+                        {
+                            "name": "htmlunit-core-js",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/net/sourceforge/htmlunit/htmlunit-core-js/2.36.0/htmlunit-core-js-2.36.0-sources.jar"
+                        },
+                        {
+                            "name": "htmlunit-core-js",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/net/sourceforge/htmlunit/htmlunit-core-js/2.36.0/htmlunit-core-js-2.36.0-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "net.sourceforge.htmlunit",
+                    "name": "neko-htmlunit",
+                    "version": "2.36.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "neko-htmlunit",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/net/sourceforge/htmlunit/neko-htmlunit/2.36.0/neko-htmlunit-2.36.0.jar"
+                        },
+                        {
+                            "name": "neko-htmlunit",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/net/sourceforge/htmlunit/neko-htmlunit/2.36.0/neko-htmlunit-2.36.0-sources.jar"
+                        },
+                        {
+                            "name": "neko-htmlunit",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/net/sourceforge/htmlunit/neko-htmlunit/2.36.0/neko-htmlunit-2.36.0-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "net.sourceforge.htmlunit",
+                    "name": "htmlunit-cssparser",
+                    "version": "1.5.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "htmlunit-cssparser",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/net/sourceforge/htmlunit/htmlunit-cssparser/1.5.0/htmlunit-cssparser-1.5.0.jar"
+                        },
+                        {
+                            "name": "htmlunit-cssparser",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/net/sourceforge/htmlunit/htmlunit-cssparser/1.5.0/htmlunit-cssparser-1.5.0-sources.jar"
+                        },
+                        {
+                            "name": "htmlunit-cssparser",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/net/sourceforge/htmlunit/htmlunit-cssparser/1.5.0/htmlunit-cssparser-1.5.0-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "commons-net",
+                    "name": "commons-net",
+                    "version": "3.6",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "commons-net",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-net/commons-net/3.6/commons-net-3.6.jar"
+                        },
+                        {
+                            "name": "commons-net",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-net/commons-net/3.6/commons-net-3.6-sources.jar"
+                        },
+                        {
+                            "name": "commons-net",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-net/commons-net/3.6/commons-net-3.6-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.brotli",
+                    "name": "dec",
+                    "version": "0.1.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "dec",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/brotli/dec/0.1.2/dec-0.1.2.jar"
+                        },
+                        {
+                            "name": "dec",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/brotli/dec/0.1.2/dec-0.1.2-sources.jar"
+                        },
+                        {
+                            "name": "dec",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/brotli/dec/0.1.2/dec-0.1.2-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.eclipse.jetty.websocket",
+                    "name": "websocket-client",
+                    "version": "9.4.20.v20190813",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "websocket-client",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-client/9.4.20.v20190813/websocket-client-9.4.20.v20190813.jar"
+                        },
+                        {
+                            "name": "websocket-client",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-client/9.4.20.v20190813/websocket-client-9.4.20.v20190813-sources.jar"
+                        },
+                        {
+                            "name": "websocket-client",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-client/9.4.20.v20190813/websocket-client-9.4.20.v20190813-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "xalan",
+                    "name": "serializer",
+                    "version": "2.7.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "serializer",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/xalan/serializer/2.7.2/serializer-2.7.2.jar"
+                        },
+                        {
+                            "name": "serializer",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/xalan/serializer/2.7.2/serializer-2.7.2-sources.jar"
+                        },
+                        {
+                            "name": "serializer",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/xalan/serializer/2.7.2/serializer-2.7.2-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "xerces",
+                    "name": "xercesImpl",
+                    "version": "2.12.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "xercesImpl",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/xerces/xercesImpl/2.12.0/xercesImpl-2.12.0.jar"
+                        },
+                        {
+                            "name": "xercesImpl",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/xerces/xercesImpl/2.12.0/xercesImpl-2.12.0-sources.jar"
+                        },
+                        {
+                            "name": "xercesImpl",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/xerces/xercesImpl/2.12.0/xercesImpl-2.12.0-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.eclipse.jetty",
+                    "name": "jetty-client",
+                    "version": "9.4.20.v20190813",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jetty-client",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-client/9.4.20.v20190813/jetty-client-9.4.20.v20190813.jar"
+                        },
+                        {
+                            "name": "jetty-client",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-client/9.4.20.v20190813/jetty-client-9.4.20.v20190813-sources.jar"
+                        },
+                        {
+                            "name": "jetty-client",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-client/9.4.20.v20190813/jetty-client-9.4.20.v20190813-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.eclipse.jetty",
+                    "name": "jetty-xml",
+                    "version": "9.4.20.v20190813",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jetty-xml",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-xml/9.4.20.v20190813/jetty-xml-9.4.20.v20190813.jar"
+                        },
+                        {
+                            "name": "jetty-xml",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-xml/9.4.20.v20190813/jetty-xml-9.4.20.v20190813-sources.jar"
+                        },
+                        {
+                            "name": "jetty-xml",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-xml/9.4.20.v20190813/jetty-xml-9.4.20.v20190813-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.eclipse.jetty",
+                    "name": "jetty-util",
+                    "version": "9.4.20.v20190813",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jetty-util",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/9.4.20.v20190813/jetty-util-9.4.20.v20190813.jar"
+                        },
+                        {
+                            "name": "jetty-util",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/9.4.20.v20190813/jetty-util-9.4.20.v20190813-sources.jar"
+                        },
+                        {
+                            "name": "jetty-util",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/9.4.20.v20190813/jetty-util-9.4.20.v20190813-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.eclipse.jetty",
+                    "name": "jetty-io",
+                    "version": "9.4.20.v20190813",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jetty-io",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/9.4.20.v20190813/jetty-io-9.4.20.v20190813.jar"
+                        },
+                        {
+                            "name": "jetty-io",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/9.4.20.v20190813/jetty-io-9.4.20.v20190813-sources.jar"
+                        },
+                        {
+                            "name": "jetty-io",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/9.4.20.v20190813/jetty-io-9.4.20.v20190813-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.eclipse.jetty.websocket",
+                    "name": "websocket-common",
+                    "version": "9.4.20.v20190813",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "websocket-common",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-common/9.4.20.v20190813/websocket-common-9.4.20.v20190813.jar"
+                        },
+                        {
+                            "name": "websocket-common",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-common/9.4.20.v20190813/websocket-common-9.4.20.v20190813-sources.jar"
+                        },
+                        {
+                            "name": "websocket-common",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-common/9.4.20.v20190813/websocket-common-9.4.20.v20190813-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "xml-apis",
+                    "name": "xml-apis",
+                    "version": "1.4.01",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "xml-apis",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.jar"
+                        },
+                        {
+                            "name": "xml-apis",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01-sources.jar"
+                        },
+                        {
+                            "name": "xml-apis",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.eclipse.jetty",
+                    "name": "jetty-http",
+                    "version": "9.4.20.v20190813",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jetty-http",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/9.4.20.v20190813/jetty-http-9.4.20.v20190813.jar"
+                        },
+                        {
+                            "name": "jetty-http",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/9.4.20.v20190813/jetty-http-9.4.20.v20190813-sources.jar"
+                        },
+                        {
+                            "name": "jetty-http",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/9.4.20.v20190813/jetty-http-9.4.20.v20190813-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.eclipse.jetty.websocket",
+                    "name": "websocket-api",
+                    "version": "9.4.20.v20190813",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "websocket-api",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-api/9.4.20.v20190813/websocket-api-9.4.20.v20190813.jar"
+                        },
+                        {
+                            "name": "websocket-api",
+                            "classifier": "sources",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-api/9.4.20.v20190813/websocket-api-9.4.20.v20190813-sources.jar"
+                        },
+                        {
+                            "name": "websocket-api",
+                            "classifier": "javadoc",
+                            "path": "/home/danangjoyoo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-api/9.4.20.v20190813/websocket-api-9.4.20.v20190813-javadoc.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "test"
+        ]
+    }
+}

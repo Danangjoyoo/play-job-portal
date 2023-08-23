@@ -1,0 +1,33 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "grpc.greet";
+option java_outer_classname = "GreetProto";
+option objc_class_prefix = "GRT";
+
+package grpc.greet;
+
+service GreetService {
+  rpc CallOne(SimpleCall) returns (Reply) {}
+  rpc CallMany(Call) returns (stream Reply) {}
+  rpc CallDiplomatic(ComplexCall) returns (Reply) {}
+}
+
+message SimpleCall {
+  string name = 1;
+}
+
+message Call {
+  string name = 1;
+  string language = 2;
+}
+
+message ComplexCall {
+  string name = 1;
+  string intro = 2;
+  string closing = 3;
+}
+
+message Reply {
+  string message = 1;
+}
